@@ -159,20 +159,20 @@ Author: julioverne
 Name: CrackTool2
 
 Package: com.julioverne.cydown
-Version: 6.9.7
+Version: 6.9.8
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
 Filename: debs/cydown.deb
-Size: 1085390
-MD5sum: 7e923c276b894da812f3e775df72ffb7
-SHA1: 20784e92651d049dbed0f3c4ccd5f6cf0b20bd17
-SHA256: 14cf3ce759e0820b955b65026445ad6bb761f2c95e5830996874b1a2f855163d
+Size: 1540022
+MD5sum: b7c812d15953bd946746cf8f1ac9303e
+SHA1: 3a85ee47eab3f87686342f70b2bd9744b3e13924
+SHA256: 053a37d81d69ec836783daffa5b8afb9184cc9f06e199ffb161c4f8d8bec9484
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Download Manager & Extra Features!
 Author: julioverne <julioverne@me.com>
-Depiction: http://julio.xarold.com/files-deb/cydown.html
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
 
@@ -212,41 +212,6 @@ Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
 Dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
-
-Package: com.ps.letmeblock
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 12.0)
-Filename: debs/letmeblock.deb
-Size: 1982
-MD5sum: 94c19760c8ac9cc1df3ec34bde433083
-SHA1: ac743f1fc7c6cfbeab7b49c8c8d0f1b62b75fad4
-SHA256: 0bcf46aa72f3c91444780bcbfbeabcdf9217e5f718691111fa5927d31857ef40
-Section: Tweaks
-Description: Make mDNSResponder care about /etc/hosts
-Author: PoomSmart
-Name: LetMeBlock
-
-Package: com.unlimapps.uaupdatetools
-Version: 1.0r-102
-Architecture: iphoneos-arm
-Maintainer: UnlimApps Inc.
-Depends: firmware (>= 7.0), mobilesubstrate
-Conflicts: it.marcocristalli.asupdatehider
-Filename: debs/uaupdatetools.deb
-Size: 863628
-MD5sum: 6d7f076eb541e5bbec3e3629f152d16d
-SHA1: 058a98b3da7197c1c767c71a6db420b392a460d2
-SHA256: 8a251edeb458547686060caa4545800061b5d6d465b34982c1e76580474180c1
-Section: System
-Priority: optional
-Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
-Description: Downgrade iOS apps to any previous version! No AppSync needed!!!
-Author: UnlimApps Inc.
-Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
-Name: App Admin
 
 Package: com.victoys.SuDial
 Version: 0.1-3
@@ -311,23 +276,6 @@ Description: 删除照片时候添加彻底删除按钮
 Author: Victoys
 Name: DeleteForever
 
-Package: com.victoys.fqhook
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/huanggua.deb
-Size: 13264
-MD5sum: 86558da20d24b3b63144050bbbf5c1f1
-SHA1: 64a88f07d3c6ec4069745affbd7f6b308494edc3
-SHA256: 6daeca05388b910bac6d7771422bb4c72e35fc589c1f751cd268b257111fe0b9
-Section: Tweaks
-Description: 去广告、无限制观看下载视频、观看次数不清零
-Author: Victoys
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: 黄瓜生活社区
-Sponsor: Victoys
-
 Package: com.victoys.gpscheat
 Version: 1.1-5
 Architecture: iphoneos-arm
@@ -342,36 +290,6 @@ Section: Tweaks
 Description: 可全局可扫街模式的虚拟定位
 Author: Victoys
 Name: GPSCheat
-
-Package: com.victoys.hgspvip
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/hgspvip.deb
-Size: 15798
-MD5sum: 28f2a39fe51d95fe932edd316452924e
-SHA1: 364c6fb04e1da35c5dfa2dd3518908402e50bb01
-SHA256: 66de36ae0b0708bedbc98a333898fcfd96cdcac36568a26fe6b6e2785398681c
-Section: Tweaks
-Description: 黄瓜视频无需VIP视频随意看
-Author: Victoys
-Name: 黄瓜视频破解
-
-Package: com.victoys.hlspcraxk
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/huli.deb
-Size: 6420
-MD5sum: 195b0e69953b353bbddde3f9aa2a8ddf
-SHA1: 774525849625afdb7973ff687a673b2cfd628a6c
-SHA256: e11bff04363d2913411b68b8af72e0a5c965518121aa99f904865ff2e2e700b0
-Section: Tweaks
-Description: 狐狸视频随意看
-Author: Victoys
-Name: 狐狸视频破解
 
 Package: com.victoys.imessagefix
 Version: 1.0.1
@@ -435,37 +353,6 @@ Description: 屏蔽软件对越狱的检测
 Author: Victoys
 Name: Liberty Lite
 
-Package: com.victoys.phone
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Installed-Size: 104
-Depends: mobilesubstrate
-Filename: debs/phone.deb
-Size: 5170
-MD5sum: 6acda67c8e5559826b30f54844cfb06f
-SHA1: 4e528289cdde2079fd35256c0635dbac104be625
-SHA256: ad2ae9c5fdb09721ae2126f5a900399c64c60415b0d60745df53c397bf3de02d
-Section: Tweaks
-Description: 破解电话助手验证
-Author: Victoys
-Name: 电话助手破解
-
-Package: com.victoys.psd
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/pansidong.deb
-Size: 184696
-MD5sum: d6a1eb3055d596af129839a5756a8f1a
-SHA1: 69d1dda0dc02720bf2442098dec9c54fded51f22
-SHA256: 47148380f42fe7a0d4213a941a931c873229990738f3abb7fe5ea47d1d467825
-Section: Tweaks
-Description: 盘丝洞去广告、开启无限次数观看
-Author: Victoys
-Name: 盘丝洞
-
 Package: com.victoys.systeminfo
 Version: 2.2.1
 Architecture: iphoneos-arm
@@ -526,23 +413,6 @@ Description: 香蕉视频商店版无限观看
 Author: Victoys
 Name: 香蕉视频商店版
 
-Package: com.ythook
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/yingtao.deb
-Size: 12286
-MD5sum: ceca583f684f16d50f864777a28a467a
-SHA1: e64e869433898600834731a2564d5fba123000ef
-SHA256: 2edb783306a0b706d33aea17d7c540dda563bd890cec21738a71a371e9ee87e9
-Section: Tweaks
-Description: 开启会员所有功能
-Author: Victoys
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: 樱桃视频
-Sponsor: Victoys
-
 Package: kuaidial-beta
 Version: 0.3.0a4-44
 Architecture: iphoneos-arm
@@ -559,27 +429,6 @@ Priority: optional
 Description: adds useful functions to Phone app
 Author: SpikeLin <linspike@gmail.com>
 Name: KuaiDial
-
-Package: mobilesubstrate
-Version: 0.9.7033
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: com.saurik.substrate.safemode
-Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
-Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
-Replaces: cycript (<= 0.9.594)
-Filename: debs/mobilesubstrate.deb
-Size: 1704642
-MD5sum: 08d58361a22889eb20d5a81849e51060
-SHA1: ad976155bfc1e3783952232649058a2318d6fd70
-SHA256: 6add5f3b6e4ceb4109c2b32f1bc1cf5443ca31636da39d864073655e3206840f
-Section: System
-Priority: optional
-Description: powerful code insertion platform
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/mobilesubstrate/
-Name: Cydia Substrate
 
 Package: net.angelxwind.stash841
 Version: 1.0
@@ -598,39 +447,6 @@ Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
 Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
 Name: Stashing for #etasonJB (8.4.1)
 
-Package: signing-certificate
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: None
-Installed-Size: 12
-Depends: jailbreak-resources (>=1.0~b4)
-Conflicts: jailbreak-resources (<<1.0~b4)
-Filename: debs/signing-certificate.deb
-Size: 6236
-MD5sum: 9a8519c8a43e4a49997269d1c63bdd0a
-SHA1: 1712974f78abad3350252068962ec4062538d232
-SHA256: aea04fee142127d2972aecc33a5402e7d9d8ad7f97cc93be5aab3d02a5a67f39
-Section: System
-Description: A Certificate to sign things with
-Author: None
-Name: Signing Certificate
-
-Package: system-memory-reset-fix
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Pwn20wnd
-Installed-Size: 56
-Depends: mobilesubstrate
-Filename: debs/systemmemoryresetfix.deb
-Size: 1888
-MD5sum: cf5d152ef813a52c57bfb4e7bc64ad5c
-SHA1: e5be957cc57267c754cfdf12f694e245e78623b0
-SHA256: 340f052351a83874fd44b999704ac0c1a5b32538388eeb6dad123bee250e0ae4
-Section: System
-Description: Prevent overnight userspace reboots triggered by mmaintenanced
-Author: Pwn20wnd
-Name: System Memory Reset Fix
-
 Package: tinyapps.xgpspro
 Version: 1.9
 Architecture: iphoneos-arm
@@ -648,23 +464,4 @@ Author: shengwen
 Dev: shengwen
 Icon: file:///Applications/XGPSPro.app/Icon.png
 Name: Fake GPS Pro(定位修改器)
-
-Package: trustinjector
-Version: 0.4~b5
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 252
-Conflicts: science.xnu.injector
-Replaces: science.xnu.injector
-Provides: trustinjector, science.xnu.injector
-Filename: debs/trustinjector.deb
-Size: 41530
-MD5sum: e5d40a5f18e4a88c11a482ea0cfc9f00
-SHA1: 419ba2fb242daf8323ae34c859f91f418b15619b
-SHA256: f2c5f283a9e83832ba8649b12e89f4aaec5135a785b111cce16d98a72b47e56d
-Section: System
-Description: Inject files to kernel trust cache
-Tag: role::hacker
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Trust Cache Injector
 
