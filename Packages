@@ -159,15 +159,15 @@ Author: julioverne
 Name: CrackTool2
 
 Package: com.julioverne.cydown
-Version: 6.9.8
+Version: 6.9.9
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
 Filename: debs/cydown.deb
-Size: 1540022
-MD5sum: b7c812d15953bd946746cf8f1ac9303e
-SHA1: 3a85ee47eab3f87686342f70b2bd9744b3e13924
-SHA256: 053a37d81d69ec836783daffa5b8afb9184cc9f06e199ffb161c4f8d8bec9484
+Size: 1540254
+MD5sum: 7cb7e585aca41ec1d863ad5b77ee5a37
+SHA1: 3a794aa3915f00fb5764f8a7dfd8fa8d7a891bbd
+SHA256: c2ef19ff2ea624bdf183bf9a6516aa1c13df9bcbf64abea0356be514f351b4b8
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Download Manager & Extra Features!
