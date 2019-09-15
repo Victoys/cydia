@@ -247,19 +247,20 @@ Author: Victoys
 Name: AppSync Unified
 
 Package: com.victoys.crackerxi
-Version: 1.1.8
+Version: 1.1.16
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), ldid (>=2.0)
 Filename: debs/crackerxi.deb
-Size: 9958018
-MD5sum: 7a7fff38444e03398e884778fdda8826
-SHA1: 564f32b8168b0cd26b97bdbf0afc28bd1e017445
-SHA256: f5dadb2a413ae195234ea457a34ca6e1f972e4fc0459ee80fb7d26f7cf3c1091
+Size: 9960926
+MD5sum: af25194d36d938a2faece18f2689ac6a
+SHA1: a851bd16c51f72df385ae674167b52b9c3bad347
+SHA256: 091a3513ffdee7b536b16af235e5f92c687217d17d8991f712bd3a814e4950f5
 Section: Tweaks
 Description: 解包App，制作越狱版ipa必备插件
 Author: Victoys
-Name: CrackerXI+
+Name: CrackerXI
+Sponsor: Victoys
 
 Package: com.victoys.deleteforever
 Version: 1.0
@@ -313,10 +314,10 @@ Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/jdquan.deb
-Size: 63040
-MD5sum: 1fad43060bc9800ed207a847fe2009f5
-SHA1: da1d71f7fab5950ca02aaf4ce46e55fd447399f7
-SHA256: 8672af3947e33c3d32417365c105bdd5af99675da6bba2ac3010dd3a250bcef5
+Size: 63032
+MD5sum: ec6de4cb4b2cdadbfe0239cb6df82c92
+SHA1: f9fbc1b9b26bed705ab1a2d36129ffdb40ac438b
+SHA256: 6e0eb817483e0dca54388fab41e246da6ca228a862cd2954b4ffffd49a8d64b7
 Section: Tweaks
 Description: 自动显示京东商品历史最低价、历史最高价、有无内部优惠券
 Author: Victoys
@@ -397,6 +398,22 @@ Section: Tweaks
 Description: 加速下载、屏蔽封号、多账户防T   最高支持版本v5.32（插件内有下载地址）
 Author: Victoys
 Name: 迅雷助手
+
+Package: com.victoys.tsssaver
+Version: 1.0-b4
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Pre-Depends: firmware (>=8.0)
+Depends: mobilesubstrate, net.limneos.libbulletin
+Filename: debs/tsssaver.deb
+Size: 423454
+MD5sum: c4d0db2711d743778bbadb3dad88f990
+SHA1: 7154fbc28d5d48854f9d6f50aa12c0541fdad8c1
+SHA256: efd9769805bc56d3666c2027a48c4f8b704ba003f044d27d4e6c15b1d0a4b288
+Section: Tweaks
+Description: 一键备份SHSH2，需要VPN。增强版，可以添加多设备保存SHSH2。
+Author: Victoys
+Name: TSSSaver
 
 Package: com.victoys.xjsp
 Version: 1.0
