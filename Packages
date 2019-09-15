@@ -369,15 +369,15 @@ Author: ARX8x
 Name: System Info
 
 Package: com.victoys.tb
-Version: 1.0-5
+Version: 1.0-6
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/tbquan.deb
-Size: 85400
-MD5sum: 6021094e7ce569dcfba5c28a736648f5
-SHA1: ed5bb97c5ef6db50d6f9fe7317a399d5cfeba6fa
-SHA256: 7d4c406cbe196edecc2b7b91d4e4be65e1476cafde947af88bc79b851ed472f3
+Size: 90678
+MD5sum: 2e5b53f6cc28630e391d83df96550152
+SHA1: e3c167988136517e0ea352964ad9c49cac89147c
+SHA256: 22f974a765d64b212b01bd65e8f9066cb378ec82b5d56c8563a95dbc387a0b39
 Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、有无内部优惠券
 Author: Victoys
