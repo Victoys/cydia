@@ -355,18 +355,18 @@ Author: Victoys
 Name: Liberty Lite
 
 Package: com.victoys.systeminfo
-Version: 2.2.1
+Version: 2.2.1-22+debug
 Architecture: iphoneos-arm
-Maintainer: ARX8x
+Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/systeminfo.deb
-Size: 526154
-MD5sum: 6bb9ffa520f55de0982286337d188df1
-SHA1: 1b1885f3eecdc76fd746c00384aacaa0b1e32469
-SHA256: 4b113a0543e979877f15a3f1fed547dfd065cd4e4c847c46d50667c415bc9776
+Size: 534422
+MD5sum: 0203e2ce254326fc38c5a071046a0318
+SHA1: 58cce946a3036414b0668e5aff024cdd7e46b04c
+SHA256: 74b35ef0ef965a7b40e7977ba5c7bc4310e59101e6d4acd2d820e53253dce771
 Section: Tweaks
-Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save shsh, battery info etc
-Author: ARX8x
+Description: 支持查看电池高级信息、支持备份shsh2、支持更改分辨率等等
+Author: Victoys
 Name: System Info
 
 Package: com.victoys.tb
