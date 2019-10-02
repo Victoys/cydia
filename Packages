@@ -340,15 +340,15 @@ Author: Victoys
 Name: 京东优惠券
 
 Package: com.victoys.killx
-Version: 0.1.3
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>=11.0), mobilesubstrate
 Filename: debs/killx.deb
-Size: 8194
-MD5sum: a11a6adfd2f4becfeb31552ad03e4ca0
-SHA1: 3f098edc143341d538a445f50dded2db68eea44c
-SHA256: af967d79c48b93381817a0689ffd4c186b0c84d59d0ce0329c575191a327cf25
+Size: 68012
+MD5sum: 3cf97c92a308c896913e2520bdca9732
+SHA1: 560141b8b2758ce60d87de40f2b9ff7eb66c2390
+SHA256: ddfc5547e20f89a1a1cc4d40da98c2295750208e9cd9500fc16b06b987aa5deb
 Section: Tweaks
 Description: 下拉清除全部后台进程
 Author: Victoys
