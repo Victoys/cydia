@@ -159,15 +159,15 @@ Author: julioverne
 Name: CrackTool2
 
 Package: com.julioverne.cydown
-Version: 7.0.1
+Version: 7.0.0
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
 Filename: debs/cydown.deb
-Size: 3549462
-MD5sum: edd46f179dd1fac3ecba98782276221d
-SHA1: ad807ea780b6c3f46eeee38e41efaaefac1c8b2a
-SHA256: 50506f48963e41b9e3e947cefad2715934eb7312821232ce09d2ee7ef9cf5177
+Size: 3557888
+MD5sum: 469c4af66ff0321d8102e328758519ab
+SHA1: 47772357c76fe33e3b2b8a66bfde5385a1f0e94d
+SHA256: 823fe3c0b0355a1214b24d361afa37c4f66705a36538886ba975466b9d0c1d28
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Download Manager & Extra Features!
@@ -386,15 +386,15 @@ Author: Victoys
 Name: System Info
 
 Package: com.victoys.tb
-Version: 1.0-8
+Version: 2.0.1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/tbquan.deb
-Size: 100762
-MD5sum: 8aae0ec20bc99da26a6c32cd0710fd7a
-SHA1: e89283435bcb77b4b927f92fe50745f7f33e0328
-SHA256: 3e2e8508814f4c2eb74389cb466f0b6845625e9a6b9dc2ae03a52d11f91a2912
+Size: 200686
+MD5sum: fe56ffc7003bfca97391ca563e0fc1d9
+SHA1: 6c95b8be7e12880ed7d2ba0aa4c9b56226a9d06f
+SHA256: 09534cc46b50602263b786411835f30f48ffae6d118798b45113aef0a5ed5121
 Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、有无内部优惠券
 Author: Victoys
