@@ -192,17 +192,17 @@ Author: Victoys
 Name: 酷我音乐Plus
 
 Package: com.matchstic.reprovision
-Version: 0.4.5
+Version: 0.5~experimental3
 Architecture: iphoneos-arm
 Maintainer: Matt Clarke <matt@incendo.ws>
 Depends: firmware (>= 9.0)
 Replaces: com.matchstic.Extender-Installer
 Provides: com.matchstic.Extender-Installer
 Filename: debs/reprovision.deb
-Size: 10687828
-MD5sum: 2af870e436036f779fb2720a0b71c1fb
-SHA1: a1d1bb6de53cd73274182243f1f2dc55b5cc0c23
-SHA256: 7aee1fdcb58b591288d7659bf1b4f27514852c4c234701c13d8bfaa26ae7d46e
+Size: 14252568
+MD5sum: cb08863e13587b405038c834d2b564a3
+SHA1: 2c3c201b488610b057848117f2444bd30fdcf2c7
+SHA256: 93cccba6b34256f2da9cc9df1ba1792c292f69567c41ebf6ba89da50283715ba
 Section: System
 Priority: optional
 Homepage: https://github.com/Matchstic/Extender-Installer
