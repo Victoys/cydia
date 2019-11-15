@@ -16,16 +16,16 @@ Name: QQMusic版权破解
 Package: anondev.LocalIAPStore
 Version: 1.4-1
 Architecture: iphoneos-arm
-Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Maintainer: Victoys
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader
 Filename: debs/localiapstore.deb
-Size: 71046
-MD5sum: 01ed4dbbe69c4cd8d024ca4e0e2cc533
-SHA1: 482135df3e9d9d63e184e76ca47f30e7979b4cdd
-SHA256: 573628427c03793c78de88b81e9086667f5444a6f443286748041c2a338ac07b
+Size: 70936
+MD5sum: 8907871a4f4c53ddf865b2f83b569d2b
+SHA1: 255406af8cef0ae70ddcf3bfb676c3ec10418d54
+SHA256: 39a2de69e0f07c8c8cbfd15d3843983e97c50f1eb6d623eaf33a3135dfb9c57d
 Section: Tweaks
-Priority: optional
-Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
-Author: anondev
+Description: Pwns In-app purchases on iOS 5.1.1 - 12.4
+Author: Victoys
 Name: LocalIAPStore
 
 Package: com.batterylife
@@ -97,16 +97,16 @@ Name: ConditionalWiFi（iOS11）
 Package: com.conditionalwifi4
 Version: 1.0
 Architecture: iphoneos-arm
+Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/conditionalwifi4.deb
-Size: 41712
-MD5sum: fd4035397714da0b601c2ef9b7d765a3
-SHA1: ed3b9ca49505488bfbd7ab09721b1d9349352c9e
-SHA256: 61388eb0c3a29eb5b12cc9a7acfa5d5c3918a4aec1dbe5dbbb7d2527933c17d8
+Size: 41690
+MD5sum: 1c006cc6266a411a3be3377b251b7751
+SHA1: 78914f4b865140eca7d4da648007ad48a0917f80
+SHA256: a9753f1dd8ccb76d52cada947dd855d09f6611f30c3e2d44f4d90bc6a6d5bef4
 Section: Tweaks
 Description: 激活国行iOS12自带网络开关
 Author: Victoys
-Dev: Victoys
 Name: ConditionalWiFi（iOS12）
 
 Package: com.dfu
