@@ -192,17 +192,17 @@ Author: Victoys
 Name: 酷我音乐Plus
 
 Package: com.matchstic.reprovision
-Version: 0.5~experimental3
+Version: 0.5~experimental4
 Architecture: iphoneos-arm
 Maintainer: Matt Clarke <matt@incendo.ws>
 Depends: firmware (>= 9.0)
 Replaces: com.matchstic.Extender-Installer
 Provides: com.matchstic.Extender-Installer
 Filename: debs/reprovision.deb
-Size: 14252568
-MD5sum: cb08863e13587b405038c834d2b564a3
-SHA1: 2c3c201b488610b057848117f2444bd30fdcf2c7
-SHA256: 93cccba6b34256f2da9cc9df1ba1792c292f69567c41ebf6ba89da50283715ba
+Size: 14252558
+MD5sum: c4fcdb969aa678a34ba1661ad92b60e2
+SHA1: 6b4329ce3d7033f2ba1b51c183c35bc00dd8369f
+SHA256: b85a68661142034e042170b2f5801e01034a8014fbf0719a974c004dc5986244
 Section: System
 Priority: optional
 Homepage: https://github.com/Matchstic/Extender-Installer
@@ -212,22 +212,6 @@ Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
 Dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
-
-Package: com.victoys.Flex3
-Version: Beta63
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: debs/Flex3b63.deb
-Size: 21259962
-MD5sum: 157d603ab2e6f02f8d43a7df9e58c50e
-SHA1: caad109915ea12840b76669b071f073f8c344334
-SHA256: 9beae23a567b2e163fc0452b4c4f2aacbc69c79fc6fe7fe2d3988a6f902ab130
-Section: Tweaks
-Description: Develop your own tweaks and share them on the Flex Community Cloud
-Author: Victoys
-Name: Flex 3
-Recommended: com.rpetrich.rocketbootstrap
 
 Package: com.victoys.SuDial
 Version: 0.1-3
