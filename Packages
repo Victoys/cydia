@@ -500,3 +500,46 @@ Dev: shengwen
 Icon: file:///Applications/XGPSPro.app/Icon.png
 Name: Fake GPS Pro(定位修改器)
 
+Package: ws.hbang.common
+Version: 1.13.1-2
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2696
+Depends: mobilesubstrate, preferenceloader, firmware (<< 12.0) | preferenceloader (>> 2.2.3), jp.ashikase.techsupport, com.rpetrich.rocketbootstrap
+Filename: debs/cephei.deb
+Size: 174790
+MD5sum: 8eba81b83ccf232f6ad6eacb13340d7e
+SHA1: 4858228e1bba5a87f4807c1409d3005d57704f4c
+SHA256: 3d9155dc2f71f06b9c257f9d9cfcd7ad6f9fe519a70be5988144482077693433
+Section: Development
+Description: Support library for tweaks
+Tag: purpose::extension, compatible::ios5, compatible::ios6, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://repo.chariz.io/package/ws.hbang.common/
+Dev: hbang
+Icon: file:///Library/PreferenceBundles/Cephei.bundle/icon@2x.png
+Name: Cephei
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.newterm2
+Version: 2.2.1
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3084
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm
+Replaces: ws.hbang.newterm
+Filename: debs/newterm2.deb
+Size: 843992
+MD5sum: 07bcd07019a561ca3c1d9353d7ba677b
+SHA1: 68563cc3d9be14ca3f6e71abfac572fc60d779bf
+SHA256: 05d56bdea01ffea6f9c705c057d41a808307a36fdb33c5d14b0294938ca9931b
+Section: Terminal Support
+Description: A powerful terminal app for iOS
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
+Icon: file:///Applications/NewTerm.app/AppIcon60x60@3x.png
+Name: NewTerm 2 (iOS 10 – 12)
+Support: https://hashbang.productions/support/
+
