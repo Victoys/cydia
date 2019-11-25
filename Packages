@@ -264,6 +264,21 @@ Description: 可直接安装使用越狱版App，不支持A12设备
 Author: Victoys
 Name: AppSync Unified
 
+Package: com.victoys.cephei
+Version: 1.13.1-2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate, preferenceloader, firmware (<< 12.4) | preferenceloader (>> 2.2.3), jp.ashikase.techsupport, com.rpetrich.rocketbootstrap
+Filename: debs/cephei.deb
+Size: 274988
+MD5sum: e239f7ecb2c09e4212b0bd972a42eb0e
+SHA1: 7390d27806cf87fa75dfe7e46da7eaa8275b8b69
+SHA256: f32ccca985d399308da31c9436065c9a042a7b094cff8e7455c9ecc738b363ac
+Section: Development
+Description: Support library for tweaks
+Author: Victoys
+Name: Cephei
+
 Package: com.victoys.crackerxi
 Version: 1.1.16
 Architecture: iphoneos-arm
@@ -371,6 +386,21 @@ Section: Tweaks
 Description: 屏蔽软件对越狱的检测
 Author: Victoys
 Name: Liberty Lite
+
+Package: com.victoys.newterm2
+Version: 2.2.1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 10.0), firmware (<= 12.4) | org.swift.libswift, bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Filename: debs/newterm2.deb
+Size: 1255318
+MD5sum: 591552aedc653e82f76415da02c6cc52
+SHA1: b8ea9ef806e48d3eb41d2c5dabf69f724103925f
+SHA256: 6312e09340a504003ec3371e29588310c9d53d0384ee7bb98ade00d3eec1cfd8
+Section: Tweaks
+Description: A powerful terminal app for iOS
+Author: Victoys
+Name: NewTerm 2
 
 Package: com.victoys.systeminfo
 Version: 2.2.2-4
@@ -499,47 +529,4 @@ Author: shengwen
 Dev: shengwen
 Icon: file:///Applications/XGPSPro.app/Icon.png
 Name: Fake GPS Pro(定位修改器)
-
-Package: ws.hbang.common
-Version: 1.13.1-2
-Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 2696
-Depends: mobilesubstrate, preferenceloader, firmware (<< 12.0) | preferenceloader (>> 2.2.3), jp.ashikase.techsupport, com.rpetrich.rocketbootstrap
-Filename: debs/cephei.deb
-Size: 174790
-MD5sum: 8eba81b83ccf232f6ad6eacb13340d7e
-SHA1: 4858228e1bba5a87f4807c1409d3005d57704f4c
-SHA256: 3d9155dc2f71f06b9c257f9d9cfcd7ad6f9fe519a70be5988144482077693433
-Section: Development
-Description: Support library for tweaks
-Tag: purpose::extension, compatible::ios5, compatible::ios6, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://repo.chariz.io/package/ws.hbang.common/
-Dev: hbang
-Icon: file:///Library/PreferenceBundles/Cephei.bundle/icon@2x.png
-Name: Cephei
-Support: https://hashbang.productions/support/
-
-Package: ws.hbang.newterm2
-Version: 2.2.1
-Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 3084
-Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
-Conflicts: ws.hbang.newterm
-Replaces: ws.hbang.newterm
-Filename: debs/newterm2.deb
-Size: 843992
-MD5sum: 07bcd07019a561ca3c1d9353d7ba677b
-SHA1: 68563cc3d9be14ca3f6e71abfac572fc60d779bf
-SHA256: 05d56bdea01ffea6f9c705c057d41a808307a36fdb33c5d14b0294938ca9931b
-Section: Terminal Support
-Description: A powerful terminal app for iOS
-Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
-Icon: file:///Applications/NewTerm.app/AppIcon60x60@3x.png
-Name: NewTerm 2 (iOS 10 – 12)
-Support: https://hashbang.productions/support/
 
