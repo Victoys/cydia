@@ -229,6 +229,23 @@ Description: 开启来电归属地、T9拨号
 Author: Victoys
 Name: SuDial
 
+Package: com.victoys.afc2
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/Afc2.deb
+Size: 14418
+MD5sum: c2e6c8a17df92f86f0ca63f0f2fa04c3
+SHA1: 5417021d5589bc98fb84d73b40a85c0a3438552c
+SHA256: e1a9dba2ad810a3f11f5546fbefd8a53a39b48a9931add5079e84c5b3cddfd9d
+Section: System
+Description: Allow full file-system access over USB for arm64 devices, especially for those using a KPPLess jailbreak.
+Author: Victoys
+Dev: Victoys
+Name: AFC2 (iOS12专用)
+Sponsor: Victoys
+
 Package: com.victoys.appsync
 Version: 41.1
 Architecture: iphoneos-arm
