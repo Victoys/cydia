@@ -246,37 +246,6 @@ Description: 可直接安装使用越狱版App，不支持A12设备
 Author: Victoys
 Name: AppSync Unified
 
-Package: com.victoys.cephei
-Version: 1.13.1-2
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate, preferenceloader, firmware (<< 12.4) | preferenceloader (>> 2.2.3), jp.ashikase.techsupport, com.rpetrich.rocketbootstrap
-Filename: debs/cephei.deb
-Size: 274988
-MD5sum: e239f7ecb2c09e4212b0bd972a42eb0e
-SHA1: 7390d27806cf87fa75dfe7e46da7eaa8275b8b69
-SHA256: f32ccca985d399308da31c9436065c9a042a7b094cff8e7455c9ecc738b363ac
-Section: Development
-Description: Support library for tweaks
-Author: Victoys
-Name: Cephei
-
-Package: com.victoys.crackerxi
-Version: 1.1.16
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 11.0), ldid (>=2.0)
-Filename: debs/crackerxi.deb
-Size: 9960926
-MD5sum: af25194d36d938a2faece18f2689ac6a
-SHA1: a851bd16c51f72df385ae674167b52b9c3bad347
-SHA256: 091a3513ffdee7b536b16af235e5f92c687217d17d8991f712bd3a814e4950f5
-Section: Tweaks
-Description: 解包App，制作越狱版ipa必备插件
-Author: Victoys
-Name: CrackerXI
-Sponsor: Victoys
-
 Package: com.victoys.deleteforever
 Version: 1.0
 Architecture: iphoneos-arm
@@ -324,15 +293,15 @@ Name: iMessage修复Bug
 Sponsor: Victoys
 
 Package: com.victoys.jd
-Version: 0.1-6
+Version: 0.1-7
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/jdquan.deb
-Size: 63032
-MD5sum: ec6de4cb4b2cdadbfe0239cb6df82c92
-SHA1: f9fbc1b9b26bed705ab1a2d36129ffdb40ac438b
-SHA256: 6e0eb817483e0dca54388fab41e246da6ca228a862cd2954b4ffffd49a8d64b7
+Size: 125898
+MD5sum: 8482e20a9c80580ab7b7bad7866074ca
+SHA1: b37d66e940197dceafeb9fb34359b35759367e25
+SHA256: 69bf84f4244ef88395cd080e4ccedd519ad67f207ebbab0e20838b62bf382b76
 Section: Tweaks
 Description: 自动显示京东商品历史最低价、历史最高价、有无内部优惠券
 Author: Victoys
@@ -368,21 +337,6 @@ Section: Tweaks
 Description: 屏蔽软件对越狱的检测
 Author: Victoys
 Name: Liberty Lite
-
-Package: com.victoys.newterm2
-Version: 2.2.1
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 10.0), firmware (<= 12.4) | org.swift.libswift, bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
-Filename: debs/newterm2.deb
-Size: 1255318
-MD5sum: 591552aedc653e82f76415da02c6cc52
-SHA1: b8ea9ef806e48d3eb41d2c5dabf69f724103925f
-SHA256: 6312e09340a504003ec3371e29588310c9d53d0384ee7bb98ade00d3eec1cfd8
-Section: Tweaks
-Description: A powerful terminal app for iOS
-Author: Victoys
-Name: NewTerm 2
 
 Package: com.victoys.systeminfo
 Version: 2.2.2-4
@@ -444,21 +398,6 @@ Section: Tweaks
 Description: 一键备份SHSH2，需要VPN。增强版，可以添加多设备保存SHSH2。
 Author: Victoys
 Name: TSSSaver
-
-Package: com.victoys.xjsp
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/xiangjiaoshipin.deb
-Size: 185318
-MD5sum: df861a79344f09f268cfc228b98ee7b5
-SHA1: a1273882cfcc4a3bbee98a78674127c1480fc4c9
-SHA256: eab0b808472d93828069755bfe82016ed0a4e63fe9e9e95ea05185f427e23e48
-Section: Tweaks
-Description: 香蕉视频商店版无限观看
-Author: Victoys
-Name: 香蕉视频商店版
 
 Package: kuaidial-beta
 Version: 0.3.0a4-44
