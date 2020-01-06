@@ -159,15 +159,15 @@ Author: julioverne
 Name: CrackTool2
 
 Package: com.julioverne.cydown
-Version: 7.0.1
+Version: 7.0.3a
 Architecture: iphoneos-arm
 Maintainer: Julio
-Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Depends: coreutils-bin, coreutils, apt7, mobilesubstrate, preferenceloader
 Filename: debs/cydown.deb
-Size: 3549462
-MD5sum: edd46f179dd1fac3ecba98782276221d
-SHA1: ad807ea780b6c3f46eeee38e41efaaefac1c8b2a
-SHA256: 50506f48963e41b9e3e947cefad2715934eb7312821232ce09d2ee7ef9cf5177
+Size: 3694130
+MD5sum: f1e7fd2c054554f4aa65237aeb2e3be4
+SHA1: 2f2ae0427ad7b0f25a6ea72407ec81d92d91fbe2
+SHA256: 71dc3dfc3d83efc0dc6ffad556623256e51d928276e93cff2bdbce19859b634c
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Download Manager & Extra Features!
@@ -192,17 +192,17 @@ Author: Victoys
 Name: 酷我音乐Plus
 
 Package: com.matchstic.reprovision
-Version: 0.5~experimental8
+Version: 0.5~release
 Architecture: iphoneos-arm
 Maintainer: Matt Clarke <matt@incendo.ws>
 Depends: firmware (>= 9.0)
 Replaces: com.matchstic.Extender-Installer
 Provides: com.matchstic.Extender-Installer
 Filename: debs/reprovision.deb
-Size: 14274374
-MD5sum: e47a5077c7f193c899ec31bcb5ece096
-SHA1: 6c7e81bcbd2129e51bb82afd49d574fd27900e92
-SHA256: 7b97a404bc9b34a36c40f1658effd5d61547c11688dd49aa21a48bbd34ab3bf2
+Size: 14356584
+MD5sum: 750a5e0a67dbb992809bbcbe4c910a2b
+SHA1: 82519e0e7d48c8e03840f5dbf2bd0d4a5f141ecb
+SHA256: c430569a9df3064b02289bb4b3f5f58610fd929c04d086edd38d5e215f7c6e24
 Section: System
 Priority: optional
 Homepage: https://github.com/Matchstic/Extender-Installer
@@ -277,21 +277,6 @@ Section: Tweaks
 Description: 删除照片时候添加彻底删除按钮
 Author: Victoys
 Name: DeleteForever
-
-Package: com.victoys.gpscheat
-Version: 1.1-5
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
-Filename: debs/gpscheat.deb
-Size: 223694
-MD5sum: abca3e7108bef1a2177f42117cd996f1
-SHA1: fac7016ac714f1b936110835186c299392b22528
-SHA256: 196e404ab1cca0f8e1518453782a2eb30a51d8d0b37d3ef13673ac85cd70f4ad
-Section: Tweaks
-Description: 可全局可扫街模式的虚拟定位
-Author: Victoys
-Name: GPSCheat
 
 Package: com.victoys.imessagefix
 Version: 1.0.1
