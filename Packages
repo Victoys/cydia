@@ -295,15 +295,15 @@ Name: iMessage修复Bug
 Sponsor: Victoys
 
 Package: com.victoys.jd
-Version: 0.1-7
+Version: 0.1-8
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/jdquan.deb
-Size: 125898
-MD5sum: 8482e20a9c80580ab7b7bad7866074ca
-SHA1: b37d66e940197dceafeb9fb34359b35759367e25
-SHA256: 69bf84f4244ef88395cd080e4ccedd519ad67f207ebbab0e20838b62bf382b76
+Size: 153944
+MD5sum: c2d59c5bc91855c9261fff047289e04b
+SHA1: 6f1775efdfda5e0320c60f99faa43da190965ce7
+SHA256: 713be338b188f13f77aad59d494bf21c16fd645371a3a06603b2920b1daf20d4
 Section: Tweaks
 Description: 自动显示京东商品历史最低价、历史最高价、有无内部优惠券
 Author: Victoys
