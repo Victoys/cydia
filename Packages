@@ -159,15 +159,15 @@ Author: julioverne
 Name: CrackTool2
 
 Package: com.julioverne.cydown
-Version: 7.0.4
+Version: 7.0.5
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: coreutils-bin, coreutils, apt7, mobilesubstrate, preferenceloader
 Filename: debs/cydown.deb
-Size: 3806324
-MD5sum: 97e0bd8bc24c626bd7001986e79e81c9
-SHA1: 231983be251b5bd751a43f791189c8e51d123184
-SHA256: efca771f81738e692fc9a00ec492e66d415737a1db302d1952b99348e919c26e
+Size: 4049524
+MD5sum: 640ad4406bd9fe5a773ae5876218fb59
+SHA1: cc98bb56f007aef1ed3b94a650ac0ebc0db8486b
+SHA256: 36a58a625d293e2e799714cf071675840090040367cb9e8d1bd05098754edb6f
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Download Manager & Extra Features!
@@ -192,17 +192,17 @@ Author: Victoys
 Name: 酷我音乐Plus
 
 Package: com.matchstic.reprovision
-Version: 0.5~release
+Version: 0.5.1~EOL
 Architecture: iphoneos-arm
 Maintainer: Matt Clarke <matt@incendo.ws>
 Depends: firmware (>= 9.0)
 Replaces: com.matchstic.Extender-Installer
 Provides: com.matchstic.Extender-Installer
 Filename: debs/reprovision.deb
-Size: 14356584
-MD5sum: 750a5e0a67dbb992809bbcbe4c910a2b
-SHA1: 82519e0e7d48c8e03840f5dbf2bd0d4a5f141ecb
-SHA256: c430569a9df3064b02289bb4b3f5f58610fd929c04d086edd38d5e215f7c6e24
+Size: 14403830
+MD5sum: 198d057d823ac0fee9ce553bafa9b199
+SHA1: 5047ba0bc6e43bbc05426e837b4a6ffc831531f0
+SHA256: 6a47052a72bf1317a089d91fbdab90e3831972d7a5b2be41593b7961c14d4728
 Section: System
 Priority: optional
 Homepage: https://github.com/Matchstic/Extender-Installer
