@@ -46,6 +46,25 @@ Description: Displays useful information about your device's battery health
 Author: Victoys
 Name: BatteryLife
 
+Package: com.cemck.killx-pro
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: cemck
+Installed-Size: 844
+Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 11.0)
+Conflicts: com.cemck.killx
+Filename: debs/KillxPro.deb
+Size: 170544
+MD5sum: d7efff350beed22b3210d646239ca2ce
+SHA1: 38e26563853e7621e0c88607d82425c53578de36
+SHA256: d659e58c43f47476057b08cb3524e91b0bfdcfa4843e56359e5bc8d818e95ea6
+Section: Tweaks
+Description: One swipe to kill them all!
+            Swipe down app switcher cards, to kill all apps.
+Author: cemck
+Icon: file:///Library/PreferenceBundles/KillXProPrefs.bundle/icon_pro_big@3x.png
+Name: KillX Pro
+
 Package: com.cokepokes.appstoreplusplus
 Version: 0.9.7
 Architecture: iphoneos-arm
@@ -123,17 +142,17 @@ Author: Victoys
 Name: kDFU
 
 Package: com.exile90.icleanerpro
-Version: 7.7.5
+Version: 7.8.0
 Architecture: iphoneos-arm
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: debs/iCleanerPro.deb
-Size: 5385562
-MD5sum: 5b6209151608ac092b4805833691bd9d
-SHA1: 0949f21d5f407a2e32b1b5741a1fe313d9e49aff
-SHA256: c90508a0f6782136717407639147ae5bbfba730c252ba044185a0ed072e2fccd
+Size: 5189780
+MD5sum: 8ef71615f225c91deac803aff2826728
+SHA1: 5349b3e09ebedd754e62682b7739bead113e5291
+SHA256: 5e11c3c904c78315a10b8e0636849f5881428b390767d44da8b8a8574b048cf2
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleaner & optimizer
@@ -159,15 +178,15 @@ Author: julioverne
 Name: CrackTool2
 
 Package: com.julioverne.cydown
-Version: 7.0.5
+Version: 7.0.6
 Architecture: iphoneos-arm
 Maintainer: Julio
-Depends: coreutils-bin, coreutils, apt7, mobilesubstrate, preferenceloader
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
 Filename: debs/cydown.deb
-Size: 4049524
-MD5sum: 640ad4406bd9fe5a773ae5876218fb59
-SHA1: cc98bb56f007aef1ed3b94a650ac0ebc0db8486b
-SHA256: 36a58a625d293e2e799714cf071675840090040367cb9e8d1bd05098754edb6f
+Size: 4061424
+MD5sum: ce3c86245a7e6485b28e1ca0619410d3
+SHA1: 003d956bf444cfb140726ee99836ed2b574dd8e9
+SHA256: f27370d5c1a9b20164b7c95685bac122fa7d86addbff76a345c33d9800edf85d
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Download Manager & Extra Features!
@@ -229,6 +248,21 @@ Description: 开启来电归属地、T9拨号
 Author: Victoys
 Name: SuDial
 
+Package: com.victoys.abypass
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
+Filename: debs/ABypass.deb
+Size: 48910
+MD5sum: 967c8ae3c0ac2dd446437acb43f9e739
+SHA1: 54e104e38b19933f2d4c3768c997a631377d925a
+SHA256: 585e1c0bb406a183914a1a9082d7dd682a0aeade2d370ed8260d51be675504ee
+Section: Tweaks
+Description: 屏蔽越狱检测、有效解决软件异常等问题
+Author: Victoys
+Name: A-Bypass
+
 Package: com.victoys.afc2
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -262,6 +296,23 @@ Section: Tweaks
 Description: 可直接安装使用越狱版App，不支持A12设备
 Author: Victoys
 Name: AppSync Unified
+
+Package: com.victoys.appsync13
+Version: 70.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: debs/appsyncunified13.deb
+Size: 63776
+MD5sum: 0ed8d529e5a77e48828deb643014e450
+SHA1: 7bc0e3eb3482e36a67491da6311460ff69e9a1a4
+SHA256: 1fb642acf9e521514f820dab4bbc2314eef5c3e86287a5603f240be4d2bec1a7
+Section: Tweaks
+Description: 可直接安装使用越狱版App
+Author: Victoys
+Name: AppSync Unified（iOS13）
 
 Package: com.victoys.deleteforever
 Version: 1.0
@@ -341,15 +392,15 @@ Author: Victoys
 Name: Liberty Lite
 
 Package: com.victoys.systeminfo
-Version: 2.2.2-4
+Version: 2.3.2-8
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/systeminfo.deb
-Size: 545362
-MD5sum: b803875bbfbef28f655d2e5d0f7a6699
-SHA1: 82c82572d9eba8297088ba969296247f02d2d89b
-SHA256: b486b092b8480cd944009faa7116df3141ed7b866c86d478ee76783926e8551c
+Size: 578898
+MD5sum: 6b8be060eeda9e8e3f5ae2251ce8e53f
+SHA1: 68d847bf74957db9446c78c8b765c47b26b04f8f
+SHA256: 6486835c014d6ee503beed1c358794e6b4c063000a43ac8c8dea33b679a0a3c5
 Section: Tweaks
 Description: 支持查看电池高级信息、支持备份shsh2、支持更改分辨率等等
 Author: Victoys
