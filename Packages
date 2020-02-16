@@ -232,6 +232,21 @@ Dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
 
+Package: com.victoys.Flex3
+Version: 1.0-B63
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/flex3.deb
+Size: 15432236
+MD5sum: 34052d84c1009e8d3e9ff9c00cc460e1
+SHA1: 58b4f120dcc56cc53e14dd1b33977f3c6ac3f3c9
+SHA256: 4a88d03f64b7e511d729897c3bff0085daff10329dfcf50cbc19b4fd5795f309
+Section: Tweaks
+Description: 定制开发属于自己的个性插件
+Author: Victoys
+Name: Flex 3
+
 Package: com.victoys.SuDial
 Version: 0.1-3
 Architecture: iphoneos-arm
@@ -328,6 +343,21 @@ Section: Tweaks
 Description: 删除照片时候添加彻底删除按钮
 Author: Victoys
 Name: DeleteForever
+
+Package: com.victoys.generatorautosetter
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 12.0)
+Filename: debs/generatorautosetter.deb
+Size: 4500
+MD5sum: 7b0d5ab80768b1200ce2f1e945163afb
+SHA1: 7cd43089ee23a9c933792d297aefbc5affa46ba4
+SHA256: 0706f827491b324e8c6b69560f5fa862c55981dd4878624ea54902760a0fe5b9
+Section: Tweaks
+Description: 使用方法:set generator 0x1111111111111111
+Author: Victoys
+Name: Generator Auto Setter
 
 Package: com.victoys.imessagefix
 Version: 1.0.1
