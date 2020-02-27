@@ -325,6 +325,21 @@ Description: 删除照片时候添加彻底删除按钮
 Author: Victoys
 Name: DeleteForever
 
+Package: com.victoys.flextool
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist
+Filename: debs/FlexTool.deb
+Size: 679544
+MD5sum: 29ea8b2e69740b0a58ab1b50487feb94
+SHA1: 8256f9c46f0f58901796cb45dbf896ba974f8fc7
+SHA256: a12b35564c52eb040ca4a9cf55598afdaa8b0ae50ed6b127e8e3396210aec034
+Section: Tweaks
+Description: 应用视图抓取工具
+Author: Victoys
+Name: FlexTool
+
 Package: com.victoys.generatorautosetter
 Version: 0.1.1
 Architecture: iphoneos-arm
