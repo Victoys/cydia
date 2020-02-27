@@ -355,6 +355,21 @@ Description: 使用方法:set generator 0x1111111111111111
 Author: Victoys
 Name: Generator Auto Setter
 
+Package: com.victoys.icleanerpro
+Version: 7.6.4
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 4.0)
+Filename: debs/iCleanerPro10.deb
+Size: 3557720
+MD5sum: 8079a437c4451934145a22e606ce6053
+SHA1: 4c7a12a9e1f3bedc809d7c1e96ca2dcf6e868eb8
+SHA256: e441f2a97312729fbe55d60d01ce344e4cbce6fb067c60f74a5c6dec83163217
+Section: Tweaks
+Description: iOS系统垃圾清理、完美支持iOS10版本
+Author: Victoys
+Name: iCleaner Pro (iOS 10)
+
 Package: com.victoys.imessagefix
 Version: 1.0.1
 Architecture: iphoneos-arm
