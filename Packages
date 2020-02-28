@@ -355,16 +355,16 @@ Description: 使用方法:set generator 0x1111111111111111
 Author: Victoys
 Name: Generator Auto Setter
 
-Package: com.victoys.icleanerpro
+Package: com.victoys.icleaner10
 Version: 7.6.4
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 4.0)
-Filename: debs/iCleanerPro10.deb
-Size: 3557720
-MD5sum: 8079a437c4451934145a22e606ce6053
-SHA1: 4c7a12a9e1f3bedc809d7c1e96ca2dcf6e868eb8
-SHA256: e441f2a97312729fbe55d60d01ce344e4cbce6fb067c60f74a5c6dec83163217
+Filename: debs/iCleaner10.deb
+Size: 3556380
+MD5sum: bfbb727ea567f86aa4d961b735012558
+SHA1: 9937d8222e1122421b8d1d7e3d67dd93cfb31ae5
+SHA256: f15e96fa52776162b7683d958865261ad08efb8c2722fe2ef10ff4d061e8cae0
 Section: Tweaks
 Description: iOS系统垃圾清理、完美支持iOS10版本
 Author: Victoys
@@ -433,15 +433,15 @@ Author: Victoys
 Name: Liberty Lite
 
 Package: com.victoys.systeminfo
-Version: 2.3.2-8
+Version: 2.3.3-2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/systeminfo.deb
-Size: 578898
-MD5sum: 6b8be060eeda9e8e3f5ae2251ce8e53f
-SHA1: 68d847bf74957db9446c78c8b765c47b26b04f8f
-SHA256: 6486835c014d6ee503beed1c358794e6b4c063000a43ac8c8dea33b679a0a3c5
+Size: 337808
+MD5sum: 44a0de2211d24a3d45b7f003c4e0304a
+SHA1: 10d8967006e773a7edbd95871e80662ec0dd06d6
+SHA256: 366f20f09221c5ccecfe4f63573638d23b6216a2fbc42ab3c417c07cd29ca352
 Section: Tweaks
 Description: 支持查看电池高级信息、支持备份shsh2、支持更改分辨率等等
 Author: Victoys
