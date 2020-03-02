@@ -229,18 +229,18 @@ Author: Victoys
 Name: Flex 3
 
 Package: com.victoys.SuDial
-Version: 0.1-3
+Version: 0.1-4
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 9.0), mobilesubstrate, PreferenceLoader
+Depends: firmware (>= 11.0), mobilesubstrate, PreferenceLoader
 Filename: debs/SuDial.deb
-Size: 355736
-MD5sum: 1215f0edbd279f4bff949c7fb5c23372
-SHA1: 51afbe6b39f4229d3d788184e98bfd402efd569e
-SHA256: e504fbbaa4d3833c8849a87aa736f33287f0a163ff399757da3e08ecb4514d6a
+Size: 490880
+MD5sum: 05a9c797b1e2faf5824f12629df3c281
+SHA1: 347ef4ed9e0be4ac21a5d3f5ac21f8cc74908fd6
+SHA256: 60e270d9994254d8dcede0a305b99961f176f9ebf9369a7f0e9141245b5bd0ff
 Section: Tweaks
 Priority: optional
-Description: 开启来电归属地、T9拨号
+Description: 开启归属地、来去电震动、T9拨号
 Author: Victoys
 Name: SuDial
 
@@ -387,17 +387,17 @@ Name: iMessage修复Bug
 Sponsor: Victoys
 
 Package: com.victoys.jd
-Version: 0.1-8
+Version: 0.1-9
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 5.0), mobilesubstrate
+Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/jdquan.deb
-Size: 153944
-MD5sum: c2d59c5bc91855c9261fff047289e04b
-SHA1: 6f1775efdfda5e0320c60f99faa43da190965ce7
-SHA256: 713be338b188f13f77aad59d494bf21c16fd645371a3a06603b2920b1daf20d4
+Size: 153796
+MD5sum: 80cd478f21f055331f4273fb20d58c77
+SHA1: 2218a9e1428a24254b37e1daa053bd9df5b6f8bc
+SHA256: 6f6c590a0f4d6c46e5161ab46a514a79561f11d027fb4b3ffbec36b8626ad2ab
 Section: Tweaks
-Description: 自动显示京东商品历史最低价、历史最高价、有无内部优惠券
+Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
 Name: 京东优惠券
 
@@ -448,17 +448,17 @@ Author: Victoys
 Name: System Info
 
 Package: com.victoys.tb
-Version: 2.0.3
+Version: 2.0.5
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 5.0), mobilesubstrate
+Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/tbquan.deb
-Size: 141480
-MD5sum: 619222a4b298a36954c0da6cf51d88a0
-SHA1: 63b2f55617d48fc3fd7564fe5256db6bdaca0313
-SHA256: 0c1e7682cd08abc3681a5b0f4358156713f8a9d0b8bd977abbe729b0f02522af
+Size: 138752
+MD5sum: b72c62d625c2304a209e49ee4c42dc69
+SHA1: 47b466a311112806646dc3164ee0589a1714d019
+SHA256: 9e67dc640aee0d2b7220ebc254ac184cc6f693976bfb2591720f0d045660db4a
 Section: Tweaks
-Description: 自动显示淘宝商品历史最低价、历史最高价、有无内部优惠券
+Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
 Name: 淘宝优惠券
 
