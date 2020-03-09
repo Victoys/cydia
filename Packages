@@ -340,36 +340,6 @@ Description: 应用视图抓取工具
 Author: Victoys
 Name: FlexTool
 
-Package: com.victoys.generatorautosetter
-Version: 0.1.1
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 12.0)
-Filename: debs/generatorautosetter.deb
-Size: 4500
-MD5sum: 7b0d5ab80768b1200ce2f1e945163afb
-SHA1: 7cd43089ee23a9c933792d297aefbc5affa46ba4
-SHA256: 0706f827491b324e8c6b69560f5fa862c55981dd4878624ea54902760a0fe5b9
-Section: Tweaks
-Description: 使用方法:set generator 0x1111111111111111
-Author: Victoys
-Name: Generator Auto Setter
-
-Package: com.victoys.icleaner10
-Version: 7.6.4
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 4.0)
-Filename: debs/iCleaner10.deb
-Size: 3556380
-MD5sum: bfbb727ea567f86aa4d961b735012558
-SHA1: 9937d8222e1122421b8d1d7e3d67dd93cfb31ae5
-SHA256: f15e96fa52776162b7683d958865261ad08efb8c2722fe2ef10ff4d061e8cae0
-Section: Tweaks
-Description: iOS系统垃圾清理、完美支持iOS10版本
-Author: Victoys
-Name: iCleaner Pro (iOS 10)
-
 Package: com.victoys.imessagefix
 Version: 1.0.1
 Architecture: iphoneos-arm
