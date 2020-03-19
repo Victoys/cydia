@@ -47,16 +47,16 @@ Author: Victoys
 Name: BatteryLife
 
 Package: com.cokepokes.appstoreplusplus
-Version: 0.9.8-6
+Version: 0.9.8-9
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
 Filename: debs/appstoreplusplus.deb
-Size: 1342920
-MD5sum: d4034af0d3d081fc5105624edd6b2ca2
-SHA1: c1580d22d1569997e5474dd92961f2657e749674
-SHA256: a59ae1b5d977119b8bb8a6ad2623e7fc24ad7c5f86ff2a57c3935aeb0669d888
+Size: 1346934
+MD5sum: d6b97e07e2166fdd11fcb8c3aafa30df
+SHA1: ecef6b7b272f89af8cbc661efe26d07f5cf63d94
+SHA256: b9a703c89b4b53a96e16e284a0dc6b908a28dc3f4420c930e78816afbf27bf2f
 Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
@@ -403,15 +403,15 @@ Author: Victoys
 Name: Liberty Lite
 
 Package: com.victoys.systeminfo
-Version: 2.3.3-2
+Version: 2.3.4-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/systeminfo.deb
-Size: 337808
-MD5sum: 44a0de2211d24a3d45b7f003c4e0304a
-SHA1: 10d8967006e773a7edbd95871e80662ec0dd06d6
-SHA256: 366f20f09221c5ccecfe4f63573638d23b6216a2fbc42ab3c417c07cd29ca352
+Size: 337420
+MD5sum: 709cca068947206fe617634284ce66cc
+SHA1: cf7cb917246f3928af1894e032b685b5c86f83d7
+SHA256: 125176791f685064bfa6e6fe9e154c1cadd0a21ca913f7155978ada2af5dcbed
 Section: Tweaks
 Description: 支持查看电池高级信息、支持备份shsh2、支持更改分辨率等等
 Author: Victoys
