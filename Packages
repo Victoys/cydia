@@ -280,7 +280,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
-Filename: debs/Deleteforever.deb
+Filename: debs/deleteforever.deb
 Size: 29156
 MD5sum: 0a68f8d2d7af40a7d803902d168639bf
 SHA1: 8e1a18fc985b8ec6b61593a50bc565f1a9e915f9
