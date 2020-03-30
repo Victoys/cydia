@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
-Filename: debs/Appstoreplusplus.deb
+Filename: debs/appstoreplusplus.deb
 Size: 1346934
 MD5sum: d6b97e07e2166fdd11fcb8c3aafa30df
 SHA1: ecef6b7b272f89af8cbc661efe26d07f5cf63d94
@@ -23,7 +23,7 @@ Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
-Filename: debs/iCleanerPro.deb
+Filename: debs/icleanerpro.deb
 Size: 5189780
 MD5sum: 8ef71615f225c91deac803aff2826728
 SHA1: 5349b3e09ebedd754e62682b7739bead113e5291
@@ -41,7 +41,7 @@ Version: 7.0.6
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Filename: debs/Cydown.deb
+Filename: debs/cydown.deb
 Size: 4061424
 MD5sum: ce3c86245a7e6485b28e1ca0619410d3
 SHA1: 003d956bf444cfb140726ee99836ed2b574dd8e9
@@ -61,7 +61,7 @@ Maintainer: Matt Clarke <matt@incendo.ws>
 Depends: firmware (>= 9.0)
 Replaces: com.matchstic.Extender-Installer
 Provides: com.matchstic.Extender-Installer
-Filename: debs/reProvision.deb
+Filename: debs/reprovision.deb
 Size: 14406348
 MD5sum: 4064144eed72b264038cb91d9e477f1a
 SHA1: 1287ffa0f2919789fc86a96267e8cb3410715ff8
@@ -81,7 +81,7 @@ Version: 1.0-B63
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: debs/Flex3.deb
+Filename: debs/flex3.deb
 Size: 15432236
 MD5sum: 34052d84c1009e8d3e9ff9c00cc460e1
 SHA1: 58b4f120dcc56cc53e14dd1b33977f3c6ac3f3c9
@@ -96,7 +96,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 9.0), mobilesubstrate
-Filename: debs/QQMusic.deb
+Filename: debs/qqmusic.deb
 Size: 24836
 MD5sum: 1e02285acfd4e080cd407c3334346fd6
 SHA1: 322ce92db578d1a13535dc08f1f42170786a0de8
@@ -113,7 +113,7 @@ Version: 0.1-4
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate, PreferenceLoader
-Filename: debs/SuDial.deb
+Filename: debs/sudial.deb
 Size: 282172
 MD5sum: d0546c4118853ca79793584f71de3103
 SHA1: aa4cc66fcc9a60d7f434541ed456fa1edd61fa02
@@ -129,7 +129,7 @@ Version: 1.0.5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
-Filename: debs/ABypass.deb
+Filename: debs/abypass.deb
 Size: 30328
 MD5sum: 66795886a94a5fed65fbd3f959813871
 SHA1: e982daf67e062286a90306049e2d36122d4b9881
@@ -144,7 +144,7 @@ Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/Afc2.deb
+Filename: debs/afc2.deb
 Size: 9576
 MD5sum: 7d57effca31fb65f34540bfd1eb5b34f
 SHA1: 5c24a9be64998fb1fb2c4aab979bd069bf895c3d
@@ -163,7 +163,7 @@ Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: debs/Appsyncunified.deb
+Filename: debs/appsyncunified.deb
 Size: 26224
 MD5sum: 962740c6a4c9b01f2e718e2c69e47629
 SHA1: ad9693a859a39fe8e3e6422fd98b157f760f03e3
@@ -180,7 +180,7 @@ Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: debs/Appsyncunified12.deb
+Filename: debs/appsyncunified12.deb
 Size: 22112
 MD5sum: c2004a90150c9d2a64e040678aa4edf2
 SHA1: 9bda05f68ea5b83daf4df45f908027316b0606d8
@@ -195,7 +195,7 @@ Version: 1.6.14
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
-Filename: debs/Batterylife.deb
+Filename: debs/batterylife.deb
 Size: 2101424
 MD5sum: 8094cb5d24fcabd728cdfa25c42502c6
 SHA1: 2e0ae593c08665e7228179f0f6988b5e2f73e78a
@@ -212,7 +212,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/Conditionalwifi2.deb
+Filename: debs/conditionalwifi2.deb
 Size: 13068
 MD5sum: dc89f503d069123434e546ed52e58cdb
 SHA1: bb00786476f27867c1a1fb8fd06210819a95fc53
@@ -229,7 +229,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/Conditionalwifi3.deb
+Filename: debs/conditionalwifi3.deb
 Size: 37116
 MD5sum: c9785a0d7fca66227c4fd28bfbb9df03
 SHA1: ed085a18e485fe78626e303ed54a2dd2c64c53a2
@@ -246,7 +246,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/Conditionalwifi4.deb
+Filename: debs/conditionalwifi4.deb
 Size: 37180
 MD5sum: 9d4d35e9aa09339f72a7a234f464dc48
 SHA1: 56651ab22196a4681e14d826dfed735a90c86a45
@@ -263,7 +263,7 @@ Version: 2.3~beta9
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: debs/Cracktool2.deb
+Filename: debs/cracktool2.deb
 Size: 357016
 MD5sum: 73842311a09c7c0c116b4155e38110da
 SHA1: ea6966d9367038c78839b4aae3157443573b24d7
@@ -295,7 +295,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.0)
-Filename: debs/kDFU.deb
+Filename: debs/kdfu.deb
 Size: 46700
 MD5sum: b6ddddae8b9f30be661bb67663b053b5
 SHA1: d7ac2e1d4c0347d3e7790a661a96792a8e376bb1
@@ -312,7 +312,7 @@ Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/iMessage.deb
+Filename: debs/imessage.deb
 Size: 4544
 MD5sum: b9cdc7932a751ffa8709f2c3cfa6901c
 SHA1: 3215a11a125ffa6373491423db82ef34bfb49f2a
@@ -328,7 +328,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist
-Filename: debs/FlexTool.deb
+Filename: debs/flextool.deb
 Size: 678248
 MD5sum: 9ca70537ff456f9c7eb9b9808f98d107
 SHA1: adb9e1ad948f9d302b324749414a66660ab951d5
@@ -343,7 +343,7 @@ Version: 1.9
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
-Filename: debs/Fakegpspro.deb
+Filename: debs/fakegpspro.deb
 Size: 1717132
 MD5sum: 5f407cd170075a5ae691ae20f908acbc
 SHA1: 408138a4e240422a9d2c1358ec5a5e7f859e9ea1
@@ -360,7 +360,7 @@ Version: 0.1-9
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: debs/Jd.deb
+Filename: debs/jd.deb
 Size: 153796
 MD5sum: 80cd478f21f055331f4273fb20d58c77
 SHA1: 2218a9e1428a24254b37e1daa053bd9df5b6f8bc
@@ -375,7 +375,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>=11.0), mobilesubstrate
-Filename: debs/Killx.deb
+Filename: debs/killx.deb
 Size: 68012
 MD5sum: 3cf97c92a308c896913e2520bdca9732
 SHA1: 560141b8b2758ce60d87de40f2b9ff7eb66c2390
@@ -390,7 +390,7 @@ Version: 0.3.0a4-44
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, preferenceloader, firmware (>= 4.0)
-Filename: debs/Kuaidial.deb
+Filename: debs/kuaidial.deb
 Size: 457704
 MD5sum: c06d48c62d63609e4c6d8dbd4366cedd
 SHA1: eb8b6529c8385c92dc494fb625588d6630e01f03
@@ -407,7 +407,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/Kuwo.deb
+Filename: debs/kuwo.deb
 Size: 9216
 MD5sum: ab8446cc2d88b3694294f154972e740b
 SHA1: c54896573a5669f815d217d49c014f360be79779
@@ -423,7 +423,7 @@ Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, preferenceloader, applist
 Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
-Filename: debs/Libertylite.deb
+Filename: debs/libertylite.deb
 Size: 82216
 MD5sum: d5e58afa000f94d87941c57845dc5b16
 SHA1: cfef5775df253d379cac93afeb9a3f2bfec6372f
@@ -438,7 +438,7 @@ Version: 1.4-1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader
-Filename: debs/Localiapstore.deb
+Filename: debs/localiapstore.deb
 Size: 42316
 MD5sum: d9112b9d607749c285af505f8c0ecf4a
 SHA1: ee92ecc35c595eb6aabd8307c0bbb42b234a1fe1
@@ -455,7 +455,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: net.tihmstar.etasonuntether (>= 1.1.0), firmware (= 8.4.1)
-Filename: debs/Stash.deb
+Filename: debs/stash.deb
 Size: 1108
 MD5sum: 4ab6fa9f2fd4f95317460045549b0754
 SHA1: 6f5569cf8fe3f78e66651e1d1c7a39c9255b5e34
@@ -472,7 +472,7 @@ Version: 2.3.4-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/Systeminfo.deb
+Filename: debs/systeminfo.deb
 Size: 337420
 MD5sum: 709cca068947206fe617634284ce66cc
 SHA1: cf7cb917246f3928af1894e032b685b5c86f83d7
@@ -487,7 +487,7 @@ Version: 2.0.5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: debs/Tb.deb
+Filename: debs/tb.deb
 Size: 138752
 MD5sum: b72c62d625c2304a209e49ee4c42dc69
 SHA1: 47b466a311112806646dc3164ee0589a1714d019
@@ -502,7 +502,7 @@ Version: 1.4.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/Thunder.deb
+Filename: debs/thunder.deb
 Size: 31156
 MD5sum: 0aec97a96403c805e148dbe3713fa45e
 SHA1: e34af26e1a07e4d864b620e0e860ebccd5156711
@@ -518,7 +518,7 @@ Architecture: iphoneos-arm
 Maintainer: Victoys
 Pre-Depends: firmware (>=8.0)
 Depends: mobilesubstrate, net.limneos.libbulletin
-Filename: debs/Tsssaver.deb
+Filename: debs/tsssaver.deb
 Size: 287140
 MD5sum: 5e9808b54ef22c36b131ba386e8f73cc
 SHA1: 50b39ccb422feaf90d5fdce027fa466c66be1feb
