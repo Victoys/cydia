@@ -1,58 +1,10 @@
-Package: TouGBao.QQMusicDeb
-Version: 0.1-1
-Architecture: iphoneos-arm
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/QQMusic.deb
-Size: 34226
-MD5sum: 0e2910cb4bb956ecc71db75fbc06b1c2
-SHA1: 52d9e7ae0bb35a2943597383020b8eae498fa1d5
-SHA256: 96f70a806420ac30931fa7dae9a60f6c9e9285f967fddc199ce87cc7cb573240
-Section: Tweaks
-Priority: optional
-Description: 开启QQ音乐付费版权音乐下载
-Author: TouGBao
-Name: QQMusic版权破解
-
-Package: anondev.LocalIAPStore
-Version: 1.4-1
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader
-Filename: debs/localiapstore.deb
-Size: 70936
-MD5sum: 8907871a4f4c53ddf865b2f83b569d2b
-SHA1: 255406af8cef0ae70ddcf3bfb676c3ec10418d54
-SHA256: 39a2de69e0f07c8c8cbfd15d3843983e97c50f1eb6d623eaf33a3135dfb9c57d
-Section: Tweaks
-Description: Pwns In-app purchases on iOS 5.1.1 - 12.4
-Author: Victoys
-Name: LocalIAPStore
-
-Package: com.batterylife
-Version: 1.6.14
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
-Conflicts: BatteryLife
-Replaces: BatteryLife
-Filename: debs/batterylife.deb
-Size: 3078498
-MD5sum: b29268803cca4124dffc0dbd25a8452a
-SHA1: 0df50d262770d0409c1799fb937c9348d81b8638
-SHA256: bff7af6632880a0681320ee4916e2209575059a7c4c521279b33fdebff6cbc9f
-Section: Utilities
-Priority: extra
-Description: Displays useful information about your device's battery health
-Author: Victoys
-Name: BatteryLife
-
 Package: com.cokepokes.appstoreplusplus
 Version: 0.9.8-9
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
-Filename: debs/appstoreplusplus.deb
+Filename: debs/Appstoreplusplus.deb
 Size: 1346934
 MD5sum: d6b97e07e2166fdd11fcb8c3aafa30df
 SHA1: ecef6b7b272f89af8cbc661efe26d07f5cf63d94
@@ -64,55 +16,10 @@ Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
 
-Package: com.conditionalwifi2
-Version: 1.0
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Filename: debs/conditionalwifi2.deb
-Size: 18190
-MD5sum: 45599efd6f46049e83f7ad4056f175f4
-SHA1: 4f1f5fad967b2513f984573fc52ecbfceccb628b
-SHA256: 6a7e83a73d814fcae62609826e72e69523d10483d39c6e95e8feceeec764e789
-Section: Tweaks
-Description: 激活国行iOS10自带网络开关
-Author: Victoys
-Dev: Victoys
-Name: ConditionalWiFi（iOS10）
-
-Package: com.conditionalwifi3
-Version: 1.0
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Filename: debs/conditionalwifi3.deb
-Size: 41546
-MD5sum: 9d1847057be0d38a7f42b10d9dcb4cc0
-SHA1: e1a5846cec51c1d383714636bb117929ead89454
-SHA256: dcfc22116277ea42eac57d8ac79d5f4802744ea683922d7bf502cd33c354d6a7
-Section: Tweaks
-Description: 激活国行iOS11自带网络开关
-Author: Victoys
-Dev: Victoys
-Name: ConditionalWiFi（iOS11）
-
-Package: com.conditionalwifi4
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/conditionalwifi4.deb
-Size: 41690
-MD5sum: 1c006cc6266a411a3be3377b251b7751
-SHA1: 78914f4b865140eca7d4da648007ad48a0917f80
-SHA256: a9753f1dd8ccb76d52cada947dd855d09f6611f30c3e2d44f4d90bc6a6d5bef4
-Section: Tweaks
-Description: 激活国行iOS12自带网络开关
-Author: Victoys
-Name: ConditionalWiFi（iOS12）
-
 Package: com.dfu
 Version: 1.0
 Architecture: iphoneos-arm
-Filename: debs/kdfu.deb
+Filename: debs/kDFU.deb
 Size: 52714
 MD5sum: 2edc195fe3ce291b06dedc16e0d3d2f7
 SHA1: 421c8af1acd7a6ed09ea1fc24ef6ebb877eab8ef
@@ -142,28 +49,12 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
-Package: com.julioverne.cracktool2
-Version: 2.3~beta9
-Architecture: iphoneos-arm
-Maintainer: Julio
-Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: debs/cracktool2.deb
-Size: 432216
-MD5sum: b6232b142ca7f8a19a7bcd726a2aedb3
-SHA1: 34e60cb540b16677387a59b8ab3002f6c0fb37cf
-SHA256: d35ec02515f76976e332e77d9eb3e7559f23f7f227a018a7fcd249c82c629f66
-Section: Utilities
-Homepage: http://twitter.com/ijulioverne
-Description: Crack Tweaks on one click
-Author: julioverne
-Name: CrackTool2
-
 Package: com.julioverne.cydown
 Version: 7.0.6
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Filename: debs/cydown.deb
+Filename: debs/Cydown.deb
 Size: 4061424
 MD5sum: ce3c86245a7e6485b28e1ca0619410d3
 SHA1: 003d956bf444cfb140726ee99836ed2b574dd8e9
@@ -176,21 +67,6 @@ Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cy
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
 
-Package: com.kwmusic
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/kuwoplus.deb
-Size: 14934
-MD5sum: b4d821545c4da04490a63e0ec462fb15
-SHA1: 6aa7ec6f077ebd263a446cff626c000e76075047
-SHA256: 2010728c7ba302cb9d7bbf36f3638eee31070440228e81ed7d96245c8138f9ca
-Section: Tweaks
-Description: 酷我音乐全功能破解，开启年费会员所有特权、图标，皮肤随意使用，试听下载任意付费专辑，下载灰色SQ品质音乐，精简酷我部分功能，移除海外ip限制，去除启动广告。
-Author: Victoys
-Name: 酷我音乐Plus
-
 Package: com.matchstic.reprovision
 Version: 0.5.2~EOL
 Architecture: iphoneos-arm
@@ -198,7 +74,7 @@ Maintainer: Matt Clarke <matt@incendo.ws>
 Depends: firmware (>= 9.0)
 Replaces: com.matchstic.Extender-Installer
 Provides: com.matchstic.Extender-Installer
-Filename: debs/reprovision.deb
+Filename: debs/reProvision.deb
 Size: 14406348
 MD5sum: 4064144eed72b264038cb91d9e477f1a
 SHA1: 1287ffa0f2919789fc86a96267e8cb3410715ff8
@@ -218,7 +94,7 @@ Version: 1.0-B63
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: debs/flex3.deb
+Filename: debs/Flex3.deb
 Size: 15432236
 MD5sum: 34052d84c1009e8d3e9ff9c00cc460e1
 SHA1: 58b4f120dcc56cc53e14dd1b33977f3c6ac3f3c9
@@ -227,6 +103,23 @@ Section: Tweaks
 Description: 定制开发属于自己的个性插件
 Author: Victoys
 Name: Flex 3
+
+Package: com.victoys.QQMusic
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: debs/QQMusic.deb
+Size: 24836
+MD5sum: 1e02285acfd4e080cd407c3334346fd6
+SHA1: 322ce92db578d1a13535dc08f1f42170786a0de8
+SHA256: 616549daedcd42426a136b94769026b6f4953750917628902d63ec5356287775
+Section: Tweaks
+Description: 开启QQ音乐付费版权音乐下载
+Author: Victoys
+Dev: Victoys
+Name: QQ音乐
+Sponsor: Victoys
 
 Package: com.victoys.SuDial
 Version: 0.1-4
@@ -245,17 +138,17 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.abypass
-Version: 1.0.4
+Version: 1.0.5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
 Filename: debs/ABypass.deb
-Size: 48910
-MD5sum: 967c8ae3c0ac2dd446437acb43f9e739
-SHA1: 54e104e38b19933f2d4c3768c997a631377d925a
-SHA256: 585e1c0bb406a183914a1a9082d7dd682a0aeade2d370ed8260d51be675504ee
+Size: 30328
+MD5sum: 66795886a94a5fed65fbd3f959813871
+SHA1: e982daf67e062286a90306049e2d36122d4b9881
+SHA256: 38e9b891820398b8678b0e6d10639a0d6092bd427e9461268b5de19754a87ec6
 Section: Tweaks
-Description: 屏蔽越狱检测、有效解决软件异常等问题
+Description: 屏蔽越狱检测、配合Choicy使用效果更佳
 Author: Victoys
 Name: A-Bypass
 
@@ -265,63 +158,148 @@ Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/Afc2.deb
-Size: 14418
-MD5sum: c2e6c8a17df92f86f0ca63f0f2fa04c3
-SHA1: 5417021d5589bc98fb84d73b40a85c0a3438552c
-SHA256: e1a9dba2ad810a3f11f5546fbefd8a53a39b48a9931add5079e84c5b3cddfd9d
+Size: 9576
+MD5sum: 7d57effca31fb65f34540bfd1eb5b34f
+SHA1: 5c24a9be64998fb1fb2c4aab979bd069bf895c3d
+SHA256: c999e3ea30a1a25ac778c4f932f29e975a4369f67feaa0855bd8bed8ab8a7147
 Section: System
-Description: Allow full file-system access over USB for arm64 devices, especially for those using a KPPLess jailbreak.
+Description: 允许64位设备进行完整系统文件访问
 Author: Victoys
 Dev: Victoys
 Name: AFC2 (iOS12专用)
 Sponsor: Victoys
 
 Package: com.victoys.appsync
+Version: 72.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: debs/Appsyncunified.deb
+Size: 26224
+MD5sum: 962740c6a4c9b01f2e718e2c69e47629
+SHA1: ad9693a859a39fe8e3e6422fd98b157f760f03e3
+SHA256: f5610dd5a35bc775a0eae73a4b7a28f961a79172bddd56f3c14dcdb3171b361e
+Section: Tweaks
+Description: 安装使用无证书版App
+Author: Victoys
+Name: AppSync Unified
+
+Package: com.victoys.appsync12
 Version: 41.1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: debs/appsyncunified.deb
-Size: 48780
-MD5sum: d858edd63f0300a0fe30eaddab5decc0
-SHA1: 198b57e1c68d12a4f599dc989ac229869c1cd670
-SHA256: d35cc237aa9b09bd7e425b05c1008da4b77a4ff94717d8a7a8f031d247987984
+Filename: debs/Appsyncunified12.deb
+Size: 22112
+MD5sum: c2004a90150c9d2a64e040678aa4edf2
+SHA1: 9bda05f68ea5b83daf4df45f908027316b0606d8
+SHA256: 7b9473818e240b16f1f82a478b9e74ce57c42a4869f80ca3e9c2beacedd2b2c1
 Section: Tweaks
-Description: 可直接安装使用越狱版App，不支持A12设备
+Description: 安装使用无证书App，不支持A12、A13设备
 Author: Victoys
-Name: AppSync Unified
+Name: AppSync Unified (iOS 12)
 
-Package: com.victoys.appsync13
-Version: 70.0
+Package: com.victoys.batterylife
+Version: 1.6.14
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: debs/appsyncunified13.deb
-Size: 63776
-MD5sum: 0ed8d529e5a77e48828deb643014e450
-SHA1: 7bc0e3eb3482e36a67491da6311460ff69e9a1a4
-SHA256: 1fb642acf9e521514f820dab4bbc2314eef5c3e86287a5603f240be4d2bec1a7
-Section: Tweaks
-Description: 可直接安装使用越狱版App
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
+Filename: debs/Batterylife.deb
+Size: 2101680
+MD5sum: 26ad1a4ac4922d3b0df75450204589e2
+SHA1: ca8537ba03b94b849c55092ade602e7977533bdc
+SHA256: 6d0a50caab43d61d88859840f23e57267b77442fbdaa245c7f5d408b06e81230
+Section: Utilities
+Description: 显示电池详细信息参数、不支持ios 11之后的系统
 Author: Victoys
-Name: AppSync Unified（iOS13）
+Dev: Victoys
+Name: BatteryLife
+Sponsor: Victoys
+
+Package: com.victoys.conditionalwifi2
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/Conditionalwifi2.deb
+Size: 13068
+MD5sum: dc89f503d069123434e546ed52e58cdb
+SHA1: bb00786476f27867c1a1fb8fd06210819a95fc53
+SHA256: 5d148cbe5b5090f9ed9b86801f3003ec8b24778051dda981bbc04069d6af2363
+Section: Tweaks
+Description: 激活国行iOS10自带网络开关
+Author: Victoys
+Dev: Victoys
+Name: ConditionalWiFi（iOS10）
+Sponsor: Victoys
+
+Package: com.victoys.conditionalwifi3
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/Conditionalwifi3.deb
+Size: 37116
+MD5sum: c9785a0d7fca66227c4fd28bfbb9df03
+SHA1: ed085a18e485fe78626e303ed54a2dd2c64c53a2
+SHA256: b89a881cd9a3bdfb39edb7c037694305904924c1117e81e0f9da827c10706fc0
+Section: Tweaks
+Description: 激活国行iOS11自带网络开关
+Author: Victoys
+Dev: Victoys
+Name: ConditionalWiFi（iOS11）
+Sponsor: Victoys
+
+Package: com.victoys.conditionalwifi4
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/Conditionalwifi4.deb
+Size: 37180
+MD5sum: 9d4d35e9aa09339f72a7a234f464dc48
+SHA1: 56651ab22196a4681e14d826dfed735a90c86a45
+SHA256: 2ef5efc8de7765d7cca7b4bdced0d49511139fc5526f8b27e3724be3b22774c1
+Section: Tweaks
+Description: 激活国行iOS12自带网络开关
+Author: Victoys
+Dev: Victoys
+Name: ConditionalWiFi（iOS12）
+Sponsor: Victoys
+
+Package: com.victoys.cracktool2
+Version: 2.3~beta9
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: debs/Cracktool2.deb
+Size: 357016
+MD5sum: 73842311a09c7c0c116b4155e38110da
+SHA1: ea6966d9367038c78839b4aae3157443573b24d7
+SHA256: 9a339c549386191229c00e905c257e7243dda43c1aee5c88a8d117102a4e9265
+Section: Utilities
+Description: 破解iOS 10越狱插件付费收费功能
+Author: Victoys
+Dev: Victoys
+Name: CrackTool2
+Sponsor: Victoys
 
 Package: com.victoys.deleteforever
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
-Filename: debs/deleteforever.deb
-Size: 45904
-MD5sum: 7c79cbc714d851e370777853fa813c25
-SHA1: bd20a6123da36453c1386690d0798473472db957
-SHA256: a8e6eb8412955b5341c1582058262db3ff08364fcb04cc01ef9ac5f5dc5f55bf
+Filename: debs/Deleteforever.deb
+Size: 29156
+MD5sum: 0a68f8d2d7af40a7d803902d168639bf
+SHA1: 8e1a18fc985b8ec6b61593a50bc565f1a9e915f9
+SHA256: 208570b559d0b253a94e76cbf5af2c9960d379ffdcf98c83c33465a56863cc65
 Section: Tweaks
-Description: 删除照片时候添加彻底删除按钮
+Description: 删除照片时添加彻底删除按钮
 Author: Victoys
 Name: DeleteForever
 
@@ -331,21 +309,38 @@ Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist
 Filename: debs/FlexTool.deb
-Size: 679544
-MD5sum: 29ea8b2e69740b0a58ab1b50487feb94
-SHA1: 8256f9c46f0f58901796cb45dbf896ba974f8fc7
-SHA256: a12b35564c52eb040ca4a9cf55598afdaa8b0ae50ed6b127e8e3396210aec034
+Size: 678248
+MD5sum: 9ca70537ff456f9c7eb9b9808f98d107
+SHA1: adb9e1ad948f9d302b324749414a66660ab951d5
+SHA256: c697edae41ae93c2cadaa3fa5e87192a1fa156e9f144a9353d6bb52c03055d13
 Section: Tweaks
-Description: 应用视图抓取工具
+Description: 替代Flexible、适配iOS 13
 Author: Victoys
 Name: FlexTool
+
+Package: com.victoys.gps
+Version: 1.9
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/Fakegpspro.deb
+Size: 1717132
+MD5sum: 5f407cd170075a5ae691ae20f908acbc
+SHA1: 408138a4e240422a9d2c1358ec5a5e7f859e9ea1
+SHA256: 64b513936a7fb962f5d8d6038aeedf03e182085ac491ea68a1634907b6c07272
+Section: Tweaks
+Description: 定位修改器、不支持iOS 11之后的系统
+Author: Victoys
+Dev: Victoys
+Name: Fake GPS Pro
+Sponsor: Victoys
 
 Package: com.victoys.imessagefix
 Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/imessage.deb
+Filename: debs/iMessage.deb
 Size: 7076
 MD5sum: ed59d4ad7defccebcc0782942352d296
 SHA1: 8ba4ce535ea47d74e574ef51e1bcbae6bf5a4cf2
@@ -361,7 +356,7 @@ Version: 0.1-9
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: debs/jdquan.deb
+Filename: debs/Jd.deb
 Size: 153796
 MD5sum: 80cd478f21f055331f4273fb20d58c77
 SHA1: 2218a9e1428a24254b37e1daa053bd9df5b6f8bc
@@ -376,7 +371,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>=11.0), mobilesubstrate
-Filename: debs/killx.deb
+Filename: debs/Killx.deb
 Size: 68012
 MD5sum: 3cf97c92a308c896913e2520bdca9732
 SHA1: 560141b8b2758ce60d87de40f2b9ff7eb66c2390
@@ -386,13 +381,28 @@ Description: 下拉清除全部后台进程
 Author: Victoys
 Name: KillX
 
+Package: com.victoys.kwmusic
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/Kuwo.deb
+Size: 9216
+MD5sum: ab8446cc2d88b3694294f154972e740b
+SHA1: c54896573a5669f815d217d49c014f360be79779
+SHA256: 16fa5768ef10586338b0ece5de14fbc5b644d587fae1558c30d856ed0c24dfce
+Section: Tweaks
+Description: 酷我音乐全功能破解。去除启动广告，开启年费会员、皮肤，试听下载任意付费专辑、下架音乐、SQ音质，屏蔽部分无用功能，移除海外IP限制。
+Author: Victoys
+Name: 酷我音乐
+
 Package: com.victoys.libertylite
 Version: 0.2.12
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, preferenceloader, applist
 Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
-Filename: debs/libertylite.deb
+Filename: debs/Libertylite.deb
 Size: 82216
 MD5sum: d5e58afa000f94d87941c57845dc5b16
 SHA1: cfef5775df253d379cac93afeb9a3f2bfec6372f
@@ -402,12 +412,46 @@ Description: 屏蔽软件对越狱的检测
 Author: Victoys
 Name: Liberty Lite
 
+Package: com.victoys.localiapstore
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader
+Filename: debs/Localiapstore.deb
+Size: 42316
+MD5sum: d9112b9d607749c285af505f8c0ecf4a
+SHA1: ee92ecc35c595eb6aabd8307c0bbb42b234a1fe1
+SHA256: fa4b7f87075d4ac6efdd6b2e3a5c108544f7143fbc50cc00f9ed30c662d99dbf
+Section: Tweaks
+Description: 软件内购破解、已完全汉化
+Author: Victoys
+Dev: Victoys
+Name: LocalIAPStore
+Sponsor: Victoys
+
+Package: com.victoys.stash
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: net.tihmstar.etasonuntether (>= 1.1.0), firmware (= 8.4.1)
+Filename: debs/Stash.deb
+Size: 1108
+MD5sum: 544a0fb596891b49b154afdde854ea50
+SHA1: 7d1ca3a48b9b39233b5a44ba09946611f67f16f0
+SHA256: 92ec3266d29cc5bfae6701f3c50b667f7d376bc1942aafbacd1f8687adece9ae
+Section: Tweaks
+Description: 执行iOS 8.4.1越狱后cydia_stash命令
+Author: Victoys
+Dev: Victoys
+Name: Stashing for etasonJB (8.4.1)
+Sponsor: Victoys
+
 Package: com.victoys.systeminfo
 Version: 2.3.4-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/systeminfo.deb
+Filename: debs/Systeminfo.deb
 Size: 337420
 MD5sum: 709cca068947206fe617634284ce66cc
 SHA1: cf7cb917246f3928af1894e032b685b5c86f83d7
@@ -422,7 +466,7 @@ Version: 2.0.5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
-Filename: debs/tbquan.deb
+Filename: debs/Tb.deb
 Size: 138752
 MD5sum: b72c62d625c2304a209e49ee4c42dc69
 SHA1: 47b466a311112806646dc3164ee0589a1714d019
@@ -437,13 +481,13 @@ Version: 1.4.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
-Filename: debs/thunder.deb
-Size: 50172
-MD5sum: 9e6c4e21934c56dc5554598648ec6e84
-SHA1: 9ff6b54e4413518c0b09ce41d5039e3dcfdae83f
-SHA256: 0ba0906546053d6d85abb9b6a945253959924a2e197d49f88fe8206971d1cb58
+Filename: debs/Thunder.deb
+Size: 31156
+MD5sum: 0aec97a96403c805e148dbe3713fa45e
+SHA1: e34af26e1a07e4d864b620e0e860ebccd5156711
+SHA256: f12fed831ad3c635535ec362f2c634ed8cce30907fe6909f1619e869c8944b0e
 Section: Tweaks
-Description: 加速下载、屏蔽封号、多账户防T   最高支持版本v5.32（插件内有下载地址）
+Description: 手机迅雷非VIP用户开启高速通道
 Author: Victoys
 Name: 迅雷助手
 
@@ -453,15 +497,15 @@ Architecture: iphoneos-arm
 Maintainer: Victoys
 Pre-Depends: firmware (>=8.0)
 Depends: mobilesubstrate, net.limneos.libbulletin
-Filename: debs/tsssaver.deb
-Size: 423454
-MD5sum: c4d0db2711d743778bbadb3dad88f990
-SHA1: 7154fbc28d5d48854f9d6f50aa12c0541fdad8c1
-SHA256: efd9769805bc56d3666c2027a48c4f8b704ba003f044d27d4e6c15b1d0a4b288
+Filename: debs/Tsssaver.deb
+Size: 287140
+MD5sum: 5e9808b54ef22c36b131ba386e8f73cc
+SHA1: 50b39ccb422feaf90d5fdce027fa466c66be1feb
+SHA256: 1843a5571b4b273f7f0ffd3bc9d516944e37058db79fdb64720e21caf66d3c22
 Section: Tweaks
-Description: 一键备份SHSH2，需要VPN。增强版，可以添加多设备保存SHSH2。
+Description: 保存SHSH2、需要VPN，可添加多设备ECID
 Author: Victoys
-Name: TSSSaver
+Name: TSS Saver
 
 Package: kuaidial-beta
 Version: 0.3.0a4-44
@@ -469,7 +513,7 @@ Architecture: iphoneos-arm
 Maintainer: SpikeLin <linspike@gmail.com>
 Installed-Size: 2800
 Depends: mobilesubstrate, preferenceloader, firmware (>= 4.0)
-Filename: debs/kuaidial.deb
+Filename: debs/Kuaidial.deb
 Size: 453460
 MD5sum: d7741a28bdcb980c2f3ea14bea02ec08
 SHA1: fbe6bd10e1f6d0d624af7541da530322756952af
@@ -479,39 +523,4 @@ Priority: optional
 Description: adds useful functions to Phone app
 Author: SpikeLin <linspike@gmail.com>
 Name: KuaiDial
-
-Package: net.angelxwind.stash841
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
-Depends: net.tihmstar.etasonuntether (>= 1.1.0), firmware (= 8.4.1)
-Filename: debs/stash.deb
-Size: 1090
-MD5sum: 9a224fe296d87727221afd3b83929969
-SHA1: f928641255024f3e74af257fee7d317f4f1d8ad7
-SHA256: 67acc84da2967f7cc8b70f1f9a4ce2170389c2335d10441f2549802c5f1f8d53
-Section: System
-Homepage: https://cydia.angelxwind.net/
-Description: Enables stashing on #etasonJB (iOS 8.4.1)
-Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
-Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
-Name: Stashing for #etasonJB (8.4.1)
-
-Package: tinyapps.xgpspro
-Version: 1.9
-Architecture: iphoneos-arm
-Essential: no
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
-Filename: debs/xgpspro.deb
-Size: 2681606
-MD5sum: 8c128706a1e7cdbcd3b5b0d58b91d245
-SHA1: eb29881feffbe71ca08e9881fd5245e8b8fd6563
-SHA256: 559e6bdb8ea27f1d450ae4be9f9459c43fc3d47859c14c99218544bf9d98f23b
-Section: Tweaks
-Priority: standard
-Description: 手机Hosts文件添加如下内容： 127.0.0.1 oc.umeng.com 127.0.0.1 oc.umeng.co 127.0.0.1 au.umeng.com 127.0.0.1 au.umeng.co 127.0.0.1 alog.umeng.com 127.0.0.1 alog.umeng.co
-Author: shengwen
-Dev: shengwen
-Icon: file:///Applications/XGPSPro.app/Icon.png
-Name: Fake GPS Pro(定位修改器)
 
