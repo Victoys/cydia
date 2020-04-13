@@ -1,14 +1,14 @@
 Package: com.cokepokes.appstoreplusplus
-Version: 0.9.8-9
+Version: 0.9.9-7
 Architecture: iphoneos-arm
 Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: com.unlimapps.uaupdatetools
-Filename: debs/appstoreplusplus.deb
-Size: 1346934
-MD5sum: d6b97e07e2166fdd11fcb8c3aafa30df
-SHA1: ecef6b7b272f89af8cbc661efe26d07f5cf63d94
-SHA256: b9a703c89b4b53a96e16e284a0dc6b908a28dc3f4420c930e78816afbf27bf2f
+Filename: debs/appstore++.deb
+Size: 1472634
+MD5sum: 177aa3a0e424eef080d7c2ec3ca1b6e6
+SHA1: ce76360fb14ea8878fb05cb4d318d5a4b2dd18b8
+SHA256: 73a7bd9c9e282f383584efab05d92d9126d0b0a38dc5a12fa42573a4daa2c32e
 Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
@@ -17,17 +17,17 @@ Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
 
 Package: com.exile90.icleanerpro
-Version: 7.8.0
+Version: 7.8.2
 Architecture: iphoneos-arm
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: debs/icleanerpro.deb
-Size: 5189780
-MD5sum: 8ef71615f225c91deac803aff2826728
-SHA1: 5349b3e09ebedd754e62682b7739bead113e5291
-SHA256: 5e11c3c904c78315a10b8e0636849f5881428b390767d44da8b8a8574b048cf2
+Size: 6557578
+MD5sum: 2967fdbb6c3c65b7a1d00523136e7b58
+SHA1: 0eed6fcaf5e77dc5338e5b9da01d0e8786d662f1
+SHA256: 4e2f3600be5bc7253bdc890fe156d75a2e697a6e5404f549a01f65917d01f8c4
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleaner & optimizer
@@ -157,7 +157,7 @@ Name: AFC2 (iOS12专用)
 Sponsor: Victoys
 
 Package: com.victoys.appsync
-Version: 72.0
+Version: 74.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
@@ -165,9 +165,9 @@ Replaces: us.hackulo.appsync50
 Provides: appsync
 Filename: debs/appsyncunified.deb
 Size: 26224
-MD5sum: 962740c6a4c9b01f2e718e2c69e47629
-SHA1: ad9693a859a39fe8e3e6422fd98b157f760f03e3
-SHA256: f5610dd5a35bc775a0eae73a4b7a28f961a79172bddd56f3c14dcdb3171b361e
+MD5sum: ba0c4dda826fcd4ffb32e36becd69cd4
+SHA1: d7a9d5cbdc9c7fd5127016f9d7fbd4d518798b7d
+SHA256: 597eafe0468a8ebf3f2755cb8e5fc56c93a14adeec8d13f03942dc1ff3c171ef
 Section: Tweaks
 Description: 安装使用无证书版App
 Author: Victoys
@@ -371,17 +371,17 @@ Author: Victoys
 Name: 京东优惠券
 
 Package: com.victoys.killx
-Version: 1.0
+Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>=11.0), mobilesubstrate
 Filename: debs/killx.deb
-Size: 68012
-MD5sum: 3cf97c92a308c896913e2520bdca9732
-SHA1: 560141b8b2758ce60d87de40f2b9ff7eb66c2390
-SHA256: ddfc5547e20f89a1a1cc4d40da98c2295750208e9cd9500fc16b06b987aa5deb
+Size: 60648
+MD5sum: 688a3f90aea3a32434f53f248772613c
+SHA1: b5d18f76cd26c69528fa63d572cf732ade93b78a
+SHA256: e4dd865615cc30332fe8c414e2193f3a84a72712bb2db288ea809f3c4b66cf67
 Section: Tweaks
-Description: 下拉清除全部后台进程
+Description: 下拉清除全部后台进程、不支持iOS 13
 Author: Victoys
 Name: KillX
 
@@ -483,15 +483,15 @@ Author: Victoys
 Name: System Info
 
 Package: com.victoys.tb
-Version: 2.0.5
+Version: 2.0.8
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/tb.deb
-Size: 138752
-MD5sum: b72c62d625c2304a209e49ee4c42dc69
-SHA1: 47b466a311112806646dc3164ee0589a1714d019
-SHA256: 9e67dc640aee0d2b7220ebc254ac184cc6f693976bfb2591720f0d045660db4a
+Size: 85560
+MD5sum: 7499b8787c9a57156dc3ec3c9bd6f3a0
+SHA1: 3a843c40a9ac6c42fff8d88e62b5fc1a6909051f
+SHA256: c1afcc8301c18bf2ef7307df1b8a47badc797f9d52b5e6d76dfbd2e5fa5db3ee
 Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
