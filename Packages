@@ -37,15 +37,15 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
 Package: com.julioverne.cydown
-Version: 7.0.8
+Version: 7.0.9
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
 Filename: debs/cydown.deb
-Size: 3398254
-MD5sum: ceb531d7609c2e9d66784dee34e2e59e
-SHA1: 98284eeaf72c48d265d4e8354c669dc626e02b7a
-SHA256: 41e498dd810340e4e17518ea754856c5c4d4eb1029f61602dd4f9d67f79c6912
+Size: 3398534
+MD5sum: fdae3ad3d3f973b16b9f6d974efc4228
+SHA1: dd34a19711e601c3d2d149cb0127181efca6ab67
+SHA256: 7f1b1208236ecebe7c3c2b8ff480a52ae83f46f53f7619d293258b13075a7f47
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Download Manager & Extra Features!
