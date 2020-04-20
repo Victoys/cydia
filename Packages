@@ -1,20 +1,3 @@
-Package: applist
-Version: 1.5.15
-Architecture: iphoneos-arm
-Maintainer: Ryan Petrich <rpetrich@gmail.com>
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
-Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Filename: debs/applist.deb
-Size: 105364
-MD5sum: fdbcb8c5d0e358b60d6841c63169c449
-SHA1: 7883e44ce1039dd6f9fac46c3065721f4a3ee3d7
-SHA256: aea6227234c8215ae907dede970cb939feb72c47a801eb0a3dc57b40e355482e
-Section: System
-Description: Allow extensions to read the list of installed apps
-Author: Ryan Petrich <rpetrich@gmail.com>
-Dev: rpetrich
-Name: AppList
-
 Package: com.cokepokes.appstoreplusplus
 Version: 0.9.9-7
 Architecture: iphoneos-arm
@@ -92,24 +75,6 @@ Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
 Dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
-
-Package: com.rpetrich.rocketbootstrap
-Version: 1.0.7
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
-Filename: debs/rocketbootstrap.deb
-Size: 38236
-MD5sum: 68862751b1dde5106e031da079375deb
-SHA1: 665df5a327aac5cafd1b5a51e67abdc7ed4ea3fb
-SHA256: 39214436fdb8bb76eb079e59f59e5500c306da416338c1b5d5fee4b49a83819c
-Section: Tweaks
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Tag: purpose::extension, role::developer
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Dev: rpetrich
-Name: RocketBootstrap
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.victoys.Flex3
 Version: 1.0-B63
@@ -577,21 +542,4 @@ Section: Tweaks
 Description: 查询所有已经连接过的WiFi密码
 Author: Victoys
 Name: Wifi Passwords
-
-Package: preferenceloader
-Version: 2.2.4
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: mobilesubstrate
-Filename: debs/preferenceloader.deb
-Size: 32736
-MD5sum: a6ad0f4bc90d11fdcef28f2e2d18eecd
-SHA1: e222fe3db4fc64ee99325f276fa58b03234f8698
-SHA256: f18c5bbd27b7bd611981a3f581c483f226c9ab25016821999c7b80b6871be034
-Section: System
-Description: load preferences in style
-Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Author: Sam Bingner <maintainer@sbdhi.com>
-Dev: dustinhowett
-Name: PreferenceLoader
 
