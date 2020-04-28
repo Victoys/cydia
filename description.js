@@ -8,7 +8,7 @@ function iOSVersion() {
 $(function() {
   $("li").on("click",function() {
 	  if(this.id=="dnt") {
-		  $("#dnt_txt").html("You can donate USD via PayPal mail: julioverne"+"@"+"icloud.com");
+		  $("#dnt_txt").html("捐助邮箱: 648638751"+"@"+"qq.com");
 	  }
   });
 });
