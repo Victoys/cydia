@@ -528,18 +528,3 @@ Description: 保存SHSH2、需要VPN，可添加多设备ECID
 Author: Victoys
 Name: TSS Saver
 
-Package: com.victoys.wifipasswords
-Version: 1.0.1-1
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 7.0)
-Filename: debs/wifipasswordslist.deb
-Size: 981108
-MD5sum: 132f8da5892fa7ac68f2cf2cb1c06729
-SHA1: 3875ec94140845fa6854e286df9a861384994d97
-SHA256: 0a4bb1b9e26e97cb1c0932f95df7157757e7ccd7e6ae12577fc385fe12b8602e
-Section: Tweaks
-Description: 查询所有已经连接过的WiFi密码
-Author: Victoys
-Name: Wifi Passwords
-
