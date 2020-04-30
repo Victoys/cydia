@@ -1,14 +1,14 @@
 Package: com.cokepokes.appstoreplusplus
-Version: 0.9.9-7
+Version: 0.9.9-10
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: com.unlimapps.uaupdatetools
 Filename: debs/appstore++.deb
-Size: 1472634
-MD5sum: 177aa3a0e424eef080d7c2ec3ca1b6e6
-SHA1: ce76360fb14ea8878fb05cb4d318d5a4b2dd18b8
-SHA256: 73a7bd9c9e282f383584efab05d92d9126d0b0a38dc5a12fa42573a4daa2c32e
+Size: 1450010
+MD5sum: 56c9a89b2578846f896ca3897a15132d
+SHA1: 36dd1d94cb2e922b2228fe045be54c623d415f59
+SHA256: 302fa07e71433121b1d4422b0a4d80e30d2defc85a250a7a88f131b66b16ef73
 Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
@@ -125,15 +125,15 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.abypass
-Version: 1.0.6
+Version: 1.0.7
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
 Filename: debs/abypass.deb
-Size: 30380
-MD5sum: 0627aeffb4efa0abe9f08b422f5ba463
-SHA1: a876f5cca343a2dd48611f74c7e6980cc483262c
-SHA256: db762a4d1a7801a6dc22cc3e60b7d60eaa21f1374f86e3d63f2d551cab22a339
+Size: 31142
+MD5sum: a059402d8fcc7bedc29ee6bf8585d16a
+SHA1: 216bc463b2ee530326e30d70ba563966c415541a
+SHA256: d4755480b38fbb20d7745493c949caaeadba2381f8f565293a69515fa0689eb2
 Section: Tweaks
 Description: 屏蔽越狱检测、配合Choicy使用效果更佳
 Author: Victoys
