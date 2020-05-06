@@ -468,15 +468,15 @@ Name: etasonJB (8.4.1)
 Sponsor: Victoys
 
 Package: com.victoys.systeminfo
-Version: 2.3.4-5
+Version: 2.7.2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/systeminfo.deb
-Size: 337420
-MD5sum: 709cca068947206fe617634284ce66cc
-SHA1: cf7cb917246f3928af1894e032b685b5c86f83d7
-SHA256: 125176791f685064bfa6e6fe9e154c1cadd0a21ca913f7155978ada2af5dcbed
+Size: 264378
+MD5sum: 418fd7a998b02a4445a1dcee40a7090f
+SHA1: a8cedfb455cfd25ef2dc92af7f6aaf9525010355
+SHA256: fd2368ef6e4aa8bca38f3aea5b3579a5222012f0e61579896087612fcac165f9
 Section: Tweaks
 Description: 支持查看电池高级信息、支持备份shsh2、支持更改分辨率等等
 Author: Victoys
