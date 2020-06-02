@@ -1,14 +1,14 @@
 Package: com.cokepokes.appstoreplusplus
-Version: 0.9.9-10
+Version: 0.9.11
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: com.unlimapps.uaupdatetools
 Filename: debs/appstore++.deb
-Size: 1450010
-MD5sum: 56c9a89b2578846f896ca3897a15132d
-SHA1: 36dd1d94cb2e922b2228fe045be54c623d415f59
-SHA256: 302fa07e71433121b1d4422b0a4d80e30d2defc85a250a7a88f131b66b16ef73
+Size: 614710
+MD5sum: f818c198169bec1ca11bba327701091b
+SHA1: 7ff6047c960c09ba25decbb34b83cb9656d946ef
+SHA256: f969ba55de63c14b7b3b939e2c1f95b997dcf133954188a56d0112a02944570a
 Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
@@ -451,15 +451,15 @@ Name: etasonJB (8.4.1)
 Sponsor: Victoys
 
 Package: com.victoys.systeminfo
-Version: 2.7.2
+Version: 2.7.2-1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/systeminfo.deb
-Size: 264378
-MD5sum: 418fd7a998b02a4445a1dcee40a7090f
-SHA1: a8cedfb455cfd25ef2dc92af7f6aaf9525010355
-SHA256: fd2368ef6e4aa8bca38f3aea5b3579a5222012f0e61579896087612fcac165f9
+Size: 265252
+MD5sum: 4ea36e0e5e2e8441c8e55095696401e0
+SHA1: 7d32ec304185bb3942e37ede7278f98ac9591074
+SHA256: 2ec90cbbfbe176b43e58195830b68b280a5db8db7e89bb6bfc9fadaeec843cdf
 Section: Tweaks
 Description: 支持查看电池高级信息、支持备份shsh2、支持更改分辨率等等
 Author: Victoys
