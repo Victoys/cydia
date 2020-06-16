@@ -17,17 +17,17 @@ Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
 
 Package: com.exile90.icleanerpro
-Version: 7.8.2
+Version: 7.8.3
 Architecture: iphoneos-arm
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: debs/icleanerpro.deb
-Size: 6557578
-MD5sum: 2967fdbb6c3c65b7a1d00523136e7b58
-SHA1: 0eed6fcaf5e77dc5338e5b9da01d0e8786d662f1
-SHA256: 4e2f3600be5bc7253bdc890fe156d75a2e697a6e5404f549a01f65917d01f8c4
+Size: 6468796
+MD5sum: 066dd8cd88f869605942ab7f6019c56f
+SHA1: 6dcfe8105eaf708bb983b2db73c90e91b4f48b4f
+SHA256: 91d9e941d47a2b6d89e1db7edba28aa7e0b1ecfa7127d1ebfa6c03fff0136314
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleaner & optimizer
@@ -125,15 +125,15 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.abypass
-Version: 1.0.7
+Version: 1.0.8
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
 Filename: debs/abypass.deb
-Size: 31142
-MD5sum: a059402d8fcc7bedc29ee6bf8585d16a
-SHA1: 216bc463b2ee530326e30d70ba563966c415541a
-SHA256: d4755480b38fbb20d7745493c949caaeadba2381f8f565293a69515fa0689eb2
+Size: 31706
+MD5sum: d22c79d04113671d6bd659701afd911c
+SHA1: 9ef3ce77d17e8a065c2e30a610723ba8e1e5e813
+SHA256: 417fae53e7f447d5c09b5fc752ed569b3af551e8dfddec814c687f340fd4cf7e
 Section: Tweaks
 Description: 屏蔽越狱检测、配合Choicy使用效果更佳
 Author: Victoys
@@ -512,19 +512,19 @@ Author: Victoys
 Name: TSS Saver
 
 Package: net.angelxwind.appsyncunified
-Version: 76.0
+Version: 78.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 496
-Depends: firmware (>= 5.0), firmware (<= 13.5), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Depends: firmware (>= 5.0), firmware (<= 13.5.5), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
 Filename: debs/appsyncunified.deb
-Size: 42050
-MD5sum: 929ecb7a6ee19fa8023fb75e615533a9
-SHA1: f02380793e8f9dffbfede00c49ad4dc4ad9e9023
-SHA256: df94944dd2a032342eeeefa6c738c82bde4c9868e1b4b3fdc7fa2154b773a0f4
+Size: 42058
+MD5sum: 5098f8c593596ca10b594f5d42caa9b3
+SHA1: d469ecba2f366de4be438451fb604cbe450bc420
+SHA256: 94374dc7924e412a13a3c82104f18c04eac3faff0606aa1bb4859c2532df6a07
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
