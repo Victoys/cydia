@@ -339,15 +339,15 @@ Name: Fake GPS Pro
 Sponsor: Victoys
 
 Package: com.victoys.jd
-Version: 0.1-9
+Version: 0.2-0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/jd.deb
-Size: 153796
-MD5sum: 80cd478f21f055331f4273fb20d58c77
-SHA1: 2218a9e1428a24254b37e1daa053bd9df5b6f8bc
-SHA256: 6f6c590a0f4d6c46e5161ab46a514a79561f11d027fb4b3ffbec36b8626ad2ab
+Size: 70280
+MD5sum: d888248cac4f958b6c0c9683bfaf6825
+SHA1: 25faa404dc8a52ff6d0a9df570ebc115f8b48a39
+SHA256: 9d7e9409d53e8d2044bf39b083bdca475e58f98774f82df0842cc93e61228b9a
 Section: Tweaks
 Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
