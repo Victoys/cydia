@@ -125,15 +125,15 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.abypass
-Version: 1.0.8
+Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
 Filename: debs/abypass.deb
-Size: 31706
-MD5sum: d22c79d04113671d6bd659701afd911c
-SHA1: 9ef3ce77d17e8a065c2e30a610723ba8e1e5e813
-SHA256: 417fae53e7f447d5c09b5fc752ed569b3af551e8dfddec814c687f340fd4cf7e
+Size: 34452
+MD5sum: 27090565b6da17a1bed4275644573eb9
+SHA1: 2627d119fb7a6f10fb586784f9f7bcf3864ab67c
+SHA256: 8d92bd525cedc174c2f520c15bc800204468330a8dc1a7e4cb62881c28e66983
 Section: Tweaks
 Description: 屏蔽越狱检测、配合Choicy使用效果更佳
 Author: Victoys
@@ -512,19 +512,19 @@ Author: Victoys
 Name: TSS Saver
 
 Package: net.angelxwind.appsyncunified
-Version: 78.0
+Version: 80.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 496
-Depends: firmware (>= 5.0), firmware (<= 13.5.5), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Depends: firmware (>= 5.0), firmware (<= 13.6), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
 Filename: debs/appsyncunified.deb
-Size: 42058
-MD5sum: 5098f8c593596ca10b594f5d42caa9b3
-SHA1: d469ecba2f366de4be438451fb604cbe450bc420
-SHA256: 94374dc7924e412a13a3c82104f18c04eac3faff0606aa1bb4859c2532df6a07
+Size: 42050
+MD5sum: c85456e75e9bcbd7174b8ad6e4e0dcb4
+SHA1: 3cd33452a5fd3ce3ea802713e540c00d03661054
+SHA256: 9f134ae1195783584cfde0c78dee439157c553c88703f0ae461b3f52248e577f
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
