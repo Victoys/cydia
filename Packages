@@ -1,17 +1,17 @@
 Package: com.cokepokes.appstoreplusplus
-Version: 0.9.11
+Version: 0.9.12
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: com.unlimapps.uaupdatetools
 Filename: debs/appstore++.deb
-Size: 614710
-MD5sum: f818c198169bec1ca11bba327701091b
-SHA1: 7ff6047c960c09ba25decbb34b83cb9656d946ef
-SHA256: f969ba55de63c14b7b3b939e2c1f95b997dcf133954188a56d0112a02944570a
+Size: 617924
+MD5sum: 3802ee4e3a8e09c1cc6f0b7088e2efe2
+SHA1: dba76c9b9ddb927cfe4d3c7ae2c63c0672f7dc6a
+SHA256: 714cb241b9c278bf349fe8b4dbcb08fe32c7151dba4910e49cd3db23c01e40c9
 Section: Tweaks
 Priority: optional
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever
 Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
@@ -125,15 +125,15 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.abypass
-Version: 1.1.1
+Version: 1.2.2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
 Filename: debs/abypass.deb
-Size: 34452
-MD5sum: 27090565b6da17a1bed4275644573eb9
-SHA1: 2627d119fb7a6f10fb586784f9f7bcf3864ab67c
-SHA256: 8d92bd525cedc174c2f520c15bc800204468330a8dc1a7e4cb62881c28e66983
+Size: 23964
+MD5sum: 848429af94dcc4d9f8760515fc79202f
+SHA1: 8a03e9e0e2744bfd14124ee38c8917b35bf22fac
+SHA256: d9041a5810e0f4720da5781b9866092b8c0bb6d012106214bfd4375cbdc21c7c
 Section: Tweaks
 Description: 屏蔽越狱检测、配合Choicy使用效果更佳
 Author: Victoys
@@ -339,15 +339,15 @@ Name: Fake GPS Pro
 Sponsor: Victoys
 
 Package: com.victoys.jd
-Version: 0.2-0
+Version: 0.2-1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/jd.deb
-Size: 70280
-MD5sum: d888248cac4f958b6c0c9683bfaf6825
-SHA1: 25faa404dc8a52ff6d0a9df570ebc115f8b48a39
-SHA256: 9d7e9409d53e8d2044bf39b083bdca475e58f98774f82df0842cc93e61228b9a
+Size: 77214
+MD5sum: 59e8cfb4c48e28aca4ae3481136f8cfa
+SHA1: 5ec04fe980963208ad2726e366b240b85479a5a1
+SHA256: dc04bd363f0ce807c9be945b50c41c952dc1c3e765ec3c2618e9c029ade646b4
 Section: Tweaks
 Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
