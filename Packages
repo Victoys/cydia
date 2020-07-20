@@ -532,3 +532,23 @@ Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
 
+Package: science.xnu.substituted
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: pwn20wnd <pwn20wndstuff@gmail.com>
+Installed-Size: 1584
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 11.0)
+Conflicts: science.xnu.substitute
+Replaces: science.xnu.substitute
+Filename: debs/substituted.deb
+Size: 424196
+MD5sum: 7f3cb5500820ba3b95416f2164327200
+SHA1: 722e9cb813e672e070c527d6d0f1eb62abc2f548
+SHA256: 4bee2500891d99762f75ce58135d47c7e76a8146733ff4be30c261436b9eb087
+Section: System
+Priority: optional
+Description: Substitute Support
+Author: pwn20wnd <pwn20wndstuff@gmail.com>
+Name: Unc0ver Policy Softener
+
