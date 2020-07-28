@@ -340,12 +340,12 @@ Package: com.victoys.generator
 Version: 0.2.7
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 12.0), com.michael.dimentio
+Depends: firmware (>= 12.0), com.victoys.dimentio
 Filename: debs/generator.deb
-Size: 8000
-MD5sum: b4d474d957cd3e05aa82febe7ef2621b
-SHA1: 44b98ab2aaa48a01aea427b58e2c788d086f353a
-SHA256: e67c94ec742f12c7c521b58d8950824c47d345f734b488b014f100c0f6aed24b
+Size: 7990
+MD5sum: 09d93518076fb70b4f28ce0b07470cb4
+SHA1: 148b3075cbc77410184a36d6b07858431f8f3ed5
+SHA256: adb31d129cba3006ce167247cb46ad1b2ed0c7625a14b7d9da2d90734cb9a644
 Section: Tweaks
 Description: checkra1n越狱专用！自动设置Generator，默认0x1111111111111111
 Author: Victoys
