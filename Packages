@@ -290,6 +290,21 @@ Dev: Victoys
 Name: kDFU
 Sponsor: Victoys
 
+Package: com.victoys.dimentio
+Version: 0.6.2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware(>= 10.0)
+Filename: debs/dimentio.deb
+Size: 10640
+MD5sum: f85a581360db1ab4a2c2ce3f42ef808f
+SHA1: ae4f55c40608eea55387efa16d232b1d587014c1
+SHA256: 2192a4ccd4b8c2e49de714808485019e63603465e4ae1df9642589311a2f95c0
+Section: System
+Description: checkra1n越狱专用！在不触发KPP、KTRR、PAC的情况下设置nonce
+Author: Victoys
+Name: dimentio
+
 Package: com.victoys.fix
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -320,6 +335,21 @@ Section: Tweaks
 Description: 替代Flexible、适配iOS 13
 Author: Victoys
 Name: FlexTool
+
+Package: com.victoys.generator
+Version: 0.2.7
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 12.0), com.michael.dimentio
+Filename: debs/generator.deb
+Size: 8000
+MD5sum: b4d474d957cd3e05aa82febe7ef2621b
+SHA1: 44b98ab2aaa48a01aea427b58e2c788d086f353a
+SHA256: e67c94ec742f12c7c521b58d8950824c47d345f734b488b014f100c0f6aed24b
+Section: Tweaks
+Description: checkra1n越狱专用！自动设置Generator，默认0x1111111111111111
+Author: Victoys
+Name: Generator Auto Setter
 
 Package: com.victoys.gps
 Version: 1.9
