@@ -368,16 +368,16 @@ Dev: Victoys
 Name: Fake GPS Pro
 Sponsor: Victoys
 
-Package: com.victoys.imkage
+Package: com.victoys.image
 Version: 0.1-2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/image.deb
 Size: 128736
-MD5sum: 5c3e5f5507a62f77c7b7207321bbf03a
-SHA1: a14cd395e7f1df37a77fff2e4865bb45da2f998c
-SHA256: 4eb177afa423d2d61f1c1baaa0b3bbfe967a326973d28433035879fc19528bac
+MD5sum: 7c5ec97d756a194f0d2075a6768720f6
+SHA1: d5bb6f421842be16b0ff95de4955c26ad3a384c2
+SHA256: 282722be9f44807fb9ac3a10a8b75b73c6ba505b75918afc1ae29945e9170e3e
 Section: Tweaks
 Description: 长按相册里的照片识别提取文字。目前功能：复制文本、翻译文本、文本分词、朗读文本！
 Author: Victoys
