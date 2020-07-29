@@ -375,9 +375,9 @@ Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/image.deb
 Size: 128736
-MD5sum: 7c5ec97d756a194f0d2075a6768720f6
-SHA1: d5bb6f421842be16b0ff95de4955c26ad3a384c2
-SHA256: 282722be9f44807fb9ac3a10a8b75b73c6ba505b75918afc1ae29945e9170e3e
+MD5sum: f323b5d6222763b4c7b21089b5c638e2
+SHA1: 9c9bce77ed60b420da93e740226d9baa08e9e67b
+SHA256: ffa434636a9da439901be63150e13ee74b50218dd6a2996cff633ac541daa8d5
 Section: Tweaks
 Description: 长按相册里的照片识别提取文字。目前功能：复制文本、翻译文本、文本分词、朗读文本！
 Author: Victoys
