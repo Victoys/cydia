@@ -112,15 +112,15 @@ Package: com.victoys.SuDial
 Version: 0.1-4
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 11.0), mobilesubstrate, PreferenceLoader
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Filename: debs/sudial.deb
-Size: 282172
-MD5sum: d0546c4118853ca79793584f71de3103
-SHA1: aa4cc66fcc9a60d7f434541ed456fa1edd61fa02
-SHA256: 2a3d0d753449713c09099cbada045a3cb5818e244b8fdc367ebc0faf77bb5c53
+Size: 282470
+MD5sum: 27d413bfe8cca7a216c483d6686deb52
+SHA1: a380d0ac802569d01571fecf15d78f9ab6b47db9
+SHA256: 74a9f6f550e22c51cce405c8afe92fd29731ae54fcfe2398f67bb3aa74eeb92b
 Section: Tweaks
 Priority: optional
-Description: 开启归属地、来去电震动、T9拨号，归属地数据库已更新最新带空格版
+Description: 开启归属地、来去电震动、T9拨号，归属地数据库已更新最新带空格版(2020-06)
 Author: Victoys
 Name: SuDial
 
