@@ -156,23 +156,6 @@ Dev: Victoys
 Name: AFC2 (iOS12专用)
 Sponsor: Victoys
 
-Package: com.victoys.appsync12
-Version: 41.1
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100)
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: debs/appsyncunified12.deb
-Size: 22112
-MD5sum: c2004a90150c9d2a64e040678aa4edf2
-SHA1: 9bda05f68ea5b83daf4df45f908027316b0606d8
-SHA256: 7b9473818e240b16f1f82a478b9e74ce57c42a4869f80ca3e9c2beacedd2b2c1
-Section: Tweaks
-Description: 安装使用无证书App，不支持A12、A13设备
-Author: Victoys
-Name: AppSync Unified (iOS 12)
-
 Package: com.victoys.batterylife
 Version: 1.6.14
 Architecture: iphoneos-arm
@@ -557,19 +540,19 @@ Author: Victoys
 Name: TSS Saver
 
 Package: net.angelxwind.appsyncunified
-Version: 80.0
+Version: 82.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 496
-Depends: firmware (>= 5.0), firmware (<= 13.6), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Depends: firmware (>= 5.0), firmware (<= 13.6.1), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
 Filename: debs/appsyncunified.deb
-Size: 42050
-MD5sum: c85456e75e9bcbd7174b8ad6e4e0dcb4
-SHA1: 3cd33452a5fd3ce3ea802713e540c00d03661054
-SHA256: 9f134ae1195783584cfde0c78dee439157c553c88703f0ae461b3f52248e577f
+Size: 42046
+MD5sum: 6ef3e0bd5be8edbff712fe3cd08a06f2
+SHA1: 98e6cd88b193962ee9c4fbd97d124a04dc32ceb8
+SHA256: 2408fcab9be1576efe7e42cc2390f79e3de9b092175796a3444c95496ac8c7f3
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
