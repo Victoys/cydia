@@ -539,6 +539,21 @@ Description: 保存SHSH2、需要VPN，可添加多设备ECID
 Author: Victoys
 Name: TSS Saver
 
+Package: com.victoys.vpnmaster
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/vpnmaster.deb
+Size: 89222
+MD5sum: caa4024849b4fef4f7081b2c51317b53
+SHA1: ce587bec6ed17caf106839ce7751c4ef8145ef0e
+SHA256: 0c462c3366b89b1af2aad770692a5c470ecd0e3a9fdf8d70b50c4fefee2f4da9
+Section: Tweaks
+Description: VPN Master开启会员路线、破解大陆IP不能使用
+Author: Victoys
+Name: VPN Master
+
 Package: net.angelxwind.appsyncunified
 Version: 82.0
 Architecture: iphoneos-arm
