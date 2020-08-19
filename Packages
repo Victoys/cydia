@@ -156,6 +156,21 @@ Dev: Victoys
 Name: AFC2 (iOS12专用)
 Sponsor: Victoys
 
+Package: com.victoys.alipay
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/zfb.deb
+Size: 117064
+MD5sum: 14655a38c61fd2b15a37292ff90d98cf
+SHA1: ebeaf3fdaebeb4b50abfa403d996bec58a20af3d
+SHA256: 3e70e0540c8e4c82e66f9b7e831cb0b36cd7f0613150c6a204fe1b42cff82a3c
+Section: Tweaks
+Description: 支付宝屏蔽越狱检测，无需借用第三方插件
+Author: Victoys
+Name: 支付宝
+
 Package: com.victoys.batterylife
 Version: 1.6.14
 Architecture: iphoneos-arm
@@ -287,6 +302,21 @@ Section: System
 Description: checkra1n越狱专用！在不触发KPP、KTRR、PAC的情况下设置nonce
 Author: Victoys
 Name: dimentio
+
+Package: com.victoys.douyin
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/douyin.deb
+Size: 102618
+MD5sum: 309ef2d9261d9f3a642e5658346c088d
+SHA1: 5e4c6461d9655d937b16dda58a6185b59a0a46ec
+SHA256: 76fd166c38d8475b186d7a29fd4af6d73cb3e6c616ee7519010b55c0c485cfad
+Section: Tweaks
+Description: 保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告
+Author: Victoys
+Name: 抖音
 
 Package: com.victoys.fix
 Version: 1.0.1
