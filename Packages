@@ -125,15 +125,15 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.abypass
-Version: 1.2.8
+Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: mobilesubstrate, com.muirey03.libmryipc
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist
 Filename: debs/abypass.deb
-Size: 120908
-MD5sum: 8d8c4122dc7259f2a15153779b8b110e
-SHA1: 9de3c6fe011c0068c2259fa9ae05cb7040ac1516
-SHA256: 6ec44ed7a1b0af070f13379822da5ec42ec039a97e179362533e123b59b6de69
+Size: 122966
+MD5sum: 8add3087dee7a4237dc80044d21420e7
+SHA1: e912e2d3a956952af4fce728cc3e691c6ec50120
+SHA256: 373fca510477662276981a78dacc88bb9e1a05cda04e0213f7486e00bebf708f
 Section: Tweaks
 Description: 强劲的屏蔽越狱检测插件、可能会引起应用打开速度变慢！
 Author: Victoys
