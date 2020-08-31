@@ -444,6 +444,23 @@ Dev: Victoys
 Name: LocalIAPStore
 Sponsor: Victoys
 
+Package: com.victoys.netcontrol
+Version: 1.0.1-8
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate
+Filename: debs/netcontrol.deb
+Size: 693972
+MD5sum: 00d39fc3db346c725694f078da262578
+SHA1: eabf5babb1540e386e1e07f03265d882f999751b
+SHA256: 3528f96f2bcd293416484e65d4b7036fcb8a45325b3d766c750483c6d0e278ce
+Section: Utilities
+Description: 激活国行iOS13自带网络开关
+Author: Victoys
+Dev: Victoys
+Name: NetControl
+Sponsor: Victoys
+
 Package: com.victoys.stash
 Version: 1.0
 Architecture: iphoneos-arm
