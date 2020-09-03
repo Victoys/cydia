@@ -245,12 +245,12 @@ Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
 Filename: debs/deleteforever.deb
-Size: 29156
-MD5sum: 0a68f8d2d7af40a7d803902d168639bf
-SHA1: 8e1a18fc985b8ec6b61593a50bc565f1a9e915f9
-SHA256: 208570b559d0b253a94e76cbf5af2c9960d379ffdcf98c83c33465a56863cc65
+Size: 29128
+MD5sum: aec3e7c9f86a1801a31552640465b31d
+SHA1: fcb94670055a576d882049b551f85b7d178c47c4
+SHA256: 911a2d32fce7521dc36f9ff95162ccd1ce9c1391673eb5fc99121b9550d75839
 Section: Tweaks
-Description: 删除照片时添加彻底删除按钮
+Description: 相册添加彻底删除照片选项，支持iOS 12
 Author: Victoys
 Name: DeleteForever
 
@@ -475,6 +475,21 @@ Author: Victoys
 Dev: Victoys
 Name: NetControl
 Sponsor: Victoys
+
+Package: com.victoys.photos
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: debs/deletephoto.deb
+Size: 5232
+MD5sum: 17977b77d289d7c5b1d3fab00f1ea87c
+SHA1: 806cecf4eac052bda818a888f5b5ea1832244f2c
+SHA256: 8f93e5fcaa16a9989830de542d9c9354e9d28932cb2b5a6b9f59a5b33f0ae3ca
+Section: Tweaks
+Description: 相册添加彻底删除照片选项，支持iOS 13
+Author: Victoys
+Name: DeletePhotos
 
 Package: com.victoys.stash
 Version: 1.0
