@@ -108,15 +108,15 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.abypass
-Version: 1.3.1
+Version: 1.3.4
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, com.muirey03.libmryipc, applist
 Filename: debs/abypass.deb
-Size: 122966
-MD5sum: 8add3087dee7a4237dc80044d21420e7
-SHA1: e912e2d3a956952af4fce728cc3e691c6ec50120
-SHA256: 373fca510477662276981a78dacc88bb9e1a05cda04e0213f7486e00bebf708f
+Size: 124712
+MD5sum: 89c106c0b2f4f602c6dadcf9cea7a20b
+SHA1: a3f01d5b446461d234dc848418e9f585f134f994
+SHA256: 9878e6c55acf1936a20975ae19f2c247f7833c186d20ed02631d407a6ed2cc5d
 Section: Tweaks
 Description: 强劲的屏蔽越狱检测插件、可能会引起应用打开速度变慢！
 Author: Victoys
@@ -287,17 +287,17 @@ Author: Victoys
 Name: dimentio
 
 Package: com.victoys.douyin
-Version: 1.6-4
+Version: 1.6-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/douyin.deb
-Size: 119254
-MD5sum: 2dbb7c8d15bf6076c1aa5afcd7dcc2aa
-SHA1: 7c4995ac13a0f832fe46343fa584bf4d9f465429
-SHA256: d5e1747cdfc82d08916c2feb0369160e936694a43fd11dfaf1b43ed183b8130c
+Size: 119718
+MD5sum: dc295f0e28ff9835b51f7c1008b2c5b2
+SHA1: 1bcb7e6f2dabbf43cc51cefe0e111490487cac1a
+SHA256: 12121735a21ee55bf5e3b1c3a7f4ab03337d39f6fe8549fc9341aab69ba7b0d1
 Section: Tweaks
-Description: 保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告
+Description: 保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告，开启后台模糊特效。
 Author: Victoys
 Name: 抖音
 
@@ -317,18 +317,33 @@ Author: Victoys
 Name: iMessage Fix
 Sponsor: Victoys
 
+Package: com.victoys.flexlist
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, applist
+Filename: debs/flexlist.deb
+Size: 1300252
+MD5sum: 8cf9b1ce78977fcf2da84743bd977bfc
+SHA1: 00f605a0558643c40e5c233abc64ee9f645ae02e
+SHA256: 49b19632501040826466719386a2802f6a749d3da11627b1738b2f5591605a6e
+Section: Tweaks
+Description: 替代Flexible、适用iOS 13
+Author: Victoys
+Name: FlexList
+
 Package: com.victoys.flextool
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader, applist
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, applist
 Filename: debs/flextool.deb
-Size: 678248
-MD5sum: 9ca70537ff456f9c7eb9b9808f98d107
-SHA1: adb9e1ad948f9d302b324749414a66660ab951d5
-SHA256: c697edae41ae93c2cadaa3fa5e87192a1fa156e9f144a9353d6bb52c03055d13
+Size: 680796
+MD5sum: 0ee28f3414e17606c6bb5731a44047b7
+SHA1: f0c97ccba84ddb1ffb613ecdc8f26a247bdad5b5
+SHA256: 6daab11f0ecfbf544e8338fdeff7b820ac9b5ee2bf2a54ec8eaef73f44511d5a
 Section: Tweaks
-Description: 替代Flexible、适配iOS 13
+Description: 替代Flexible、适用iOS 12
 Author: Victoys
 Name: FlexTool
 
@@ -540,19 +555,19 @@ Author: Victoys
 Name: TSS Saver
 
 Package: net.angelxwind.appsyncunified
-Version: 82.0
+Version: 84.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 496
-Depends: firmware (>= 5.0), firmware (<= 13.6.1), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
 Filename: debs/appsyncunified.deb
-Size: 42046
-MD5sum: 6ef3e0bd5be8edbff712fe3cd08a06f2
-SHA1: 98e6cd88b193962ee9c4fbd97d124a04dc32ceb8
-SHA256: 2408fcab9be1576efe7e42cc2390f79e3de9b092175796a3444c95496ac8c7f3
+Size: 42058
+MD5sum: 979c1973c503b9eb4e9e1151d97c4421
+SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
+SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
