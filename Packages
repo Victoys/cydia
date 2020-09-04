@@ -318,15 +318,15 @@ Name: iMessage Fix
 Sponsor: Victoys
 
 Package: com.victoys.flexlist
-Version: 1.2-1
+Version: 1.2-2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, applist
 Filename: debs/flexlist.deb
-Size: 1300252
-MD5sum: 8cf9b1ce78977fcf2da84743bd977bfc
-SHA1: 00f605a0558643c40e5c233abc64ee9f645ae02e
-SHA256: 49b19632501040826466719386a2802f6a749d3da11627b1738b2f5591605a6e
+Size: 1300196
+MD5sum: 165ab66e40cdc36ce69a2ea5cb2876f9
+SHA1: 0289c1154a455781b0bebd63fec3ad18259cc656
+SHA256: d8ac1532b85c7a205a38e374c947bf013bb69c14ad4a8a5c6c71182c68663690
 Section: Tweaks
 Description: 替代Flexible、适用iOS 13
 Author: Victoys
