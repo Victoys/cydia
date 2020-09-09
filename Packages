@@ -287,15 +287,15 @@ Author: Victoys
 Name: dimentio
 
 Package: com.victoys.douyin
-Version: 1.6-5
+Version: 1.6-6
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/douyin.deb
-Size: 119718
-MD5sum: dc295f0e28ff9835b51f7c1008b2c5b2
-SHA1: 1bcb7e6f2dabbf43cc51cefe0e111490487cac1a
-SHA256: 12121735a21ee55bf5e3b1c3a7f4ab03337d39f6fe8549fc9341aab69ba7b0d1
+Size: 230884
+MD5sum: 7cc7348ec3cab513bb6c338c9c9d282a
+SHA1: fbde537ccb5baf2e98dfae2f2bd552cefe84dd47
+SHA256: aef64c78e146bdce3c49a9ae8012d083a89c0139bfd2917082582924a18a5c2b
 Section: Tweaks
 Description: 保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告，开启后台模糊特效。
 Author: Victoys
