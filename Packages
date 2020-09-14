@@ -1,14 +1,14 @@
 Package: com.cokepokes.appstoreplusplus
-Version: 0.9.12
+Version: 0.9.13-1
 Architecture: iphoneos-arm
 Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap, com.cokepokes.letsdowngrade
 Conflicts: com.unlimapps.uaupdatetools
 Filename: debs/appstore++.deb
-Size: 617924
-MD5sum: 3802ee4e3a8e09c1cc6f0b7088e2efe2
-SHA1: dba76c9b9ddb927cfe4d3c7ae2c63c0672f7dc6a
-SHA256: 714cb241b9c278bf349fe8b4dbcb08fe32c7151dba4910e49cd3db23c01e40c9
+Size: 664258
+MD5sum: 5474ea52a279f12e2bfcc6b92ef7fc34
+SHA1: 0f222834da35dfaf14fe5a5b6a6caf418cb28d02
+SHA256: 3448eff7463273273a684000cf42800f133a5df292104989d5f8b1fe4c60291c
 Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever
@@ -108,15 +108,15 @@ Author: Victoys
 Name: SuDial
 
 Package: com.victoys.abypass
-Version: 1.3.4
+Version: 1.3.5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate, com.muirey03.libmryipc, applist
 Filename: debs/abypass.deb
-Size: 124712
-MD5sum: 89c106c0b2f4f602c6dadcf9cea7a20b
-SHA1: a3f01d5b446461d234dc848418e9f585f134f994
-SHA256: 9878e6c55acf1936a20975ae19f2c247f7833c186d20ed02631d407a6ed2cc5d
+Size: 125482
+MD5sum: 3e9d46240ad4fe70a1cf382d3469e64a
+SHA1: 2a89424b59282620b00b00e1d04447527954547a
+SHA256: 3bdbc921627d558a07ce484fc49759ae1d5004a233c053e1a5a3a5c5a66d2901
 Section: Tweaks
 Description: 强劲的屏蔽越狱检测插件、可能会引起应用打开速度变慢！
 Author: Victoys
@@ -318,15 +318,15 @@ Name: iMessage Fix
 Sponsor: Victoys
 
 Package: com.victoys.flexlist
-Version: 1.2-2
+Version: 1.2-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, applist
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
 Filename: debs/flexlist.deb
-Size: 1300196
-MD5sum: 165ab66e40cdc36ce69a2ea5cb2876f9
-SHA1: 0289c1154a455781b0bebd63fec3ad18259cc656
-SHA256: d8ac1532b85c7a205a38e374c947bf013bb69c14ad4a8a5c6c71182c68663690
+Size: 1336348
+MD5sum: 5dc23cbb00e719f00c14025c1ec31bba
+SHA1: cdc6554645b7489147361866426c28749400c9d7
+SHA256: dde305b60b049f47a2b7c04084265492325cb1f85ce95615f401bc0e8b12ba6d
 Section: Tweaks
 Description: 替代Flexible、适用iOS 13
 Author: Victoys
