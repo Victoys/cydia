@@ -301,6 +301,21 @@ Description: 保存视频去水印，保存不可下载视频，去除启动广�
 Author: Victoys
 Name: 抖音
 
+Package: com.victoys.fakepicture
+Version: 1.6.1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000), applist
+Filename: debs/fakepicture.deb
+Size: 3533122
+MD5sum: f58ea58495d349c70122fca8a6ddbb61
+SHA1: 3cf7c57ab33092050081a3abe08452e723016586
+SHA256: e0cce6a8acb234115d9abc56ecc3e024b6a45a404314e618865a65f3b671984f
+Section: Tweaks
+Description: 替换应用摄像头拍照的图片，让应用得到任意设置的照片。
+Author: Victoys
+Name: 虚拟拍照
+
 Package: com.victoys.fix
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -459,6 +474,21 @@ Dev: Victoys
 Name: LocalIAPStore
 Sponsor: Victoys
 
+Package: com.victoys.manager
+Version: 1.6.0-2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 13.0)
+Filename: debs/appsmanage.deb
+Size: 1462350
+MD5sum: d895e573a9e5f7eaaf0c1b69b2548e1a
+SHA1: a9c666d3505c0f9cac77fbaa347f82424b795e4e
+SHA256: 5df1be7606688085a638ab70bca7052d46a9013c2670720d15dbd6784ae224bb
+Section: Tweaks
+Description: 抹除、备份、还原应用数据神器，已破解。
+Author: Victoys
+Name: Apps Manager
+
 Package: com.victoys.netcontrol
 Version: 1.0.1-8
 Architecture: iphoneos-arm
@@ -509,15 +539,15 @@ Name: etasonJB (8.4.1)
 Sponsor: Victoys
 
 Package: com.victoys.systeminfo
-Version: 2.7.2-1
+Version: 2.7.2-2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/systeminfo.deb
-Size: 265252
-MD5sum: 4ea36e0e5e2e8441c8e55095696401e0
-SHA1: 7d32ec304185bb3942e37ede7278f98ac9591074
-SHA256: 2ec90cbbfbe176b43e58195830b68b280a5db8db7e89bb6bfc9fadaeec843cdf
+Size: 264684
+MD5sum: 997e414f15b746d5affa1e3b8ba4b270
+SHA1: a28003096cb0266cdf902761ce235652cc259559
+SHA256: 6f6b99c7a337136a31ac066bb9fd03f24038aa3ca9ef3d53e270e79339e6edcd
 Section: Tweaks
 Description: 支持查看电池高级信息、支持备份shsh2、支持更改分辨率等等
 Author: Victoys
