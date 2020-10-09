@@ -1,3 +1,21 @@
+Package: Flex3beta
+Version: 1:3~Beta97
+Architecture: iphoneos-arm
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: debs/Flex3Beta.deb
+Size: 14371310
+MD5sum: 1f450b09787761c0a32b802652b4f897
+SHA1: f23e581e4e25b828ee69106bfb228798af4c6cce
+SHA256: 7a560b2c3387343d3e37027bb785263409bc60b6bf90b134704988b9fc519f9d
+Section: Tweaks
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Author: John Coates
+Name: Flex 3 Beta
+Recommended: com.rpetrich.rocketbootstrap
+
 Package: com.cokepokes.appstoreplusplus
 Version: 0.9.12
 Architecture: iphoneos-arm
@@ -222,23 +240,6 @@ Dev: Victoys
 Name: ConditionalWiFi（iOS12）
 Sponsor: Victoys
 
-Package: com.victoys.cracktool2
-Version: 2.3~beta9
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
-Filename: debs/cracktool2.deb
-Size: 357016
-MD5sum: 73842311a09c7c0c116b4155e38110da
-SHA1: ea6966d9367038c78839b4aae3157443573b24d7
-SHA256: 9a339c549386191229c00e905c257e7243dda43c1aee5c88a8d117102a4e9265
-Section: Utilities
-Description: 破解iOS 10越狱插件付费收费功能
-Author: Victoys
-Dev: Victoys
-Name: CrackTool2
-Sponsor: Victoys
-
 Package: com.victoys.deleteforever
 Version: 1.0
 Architecture: iphoneos-arm
@@ -271,21 +272,6 @@ Dev: Victoys
 Name: kDFU
 Sponsor: Victoys
 
-Package: com.victoys.dimentio
-Version: 0.6.2
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware(>= 10.0)
-Filename: debs/dimentio.deb
-Size: 10640
-MD5sum: f85a581360db1ab4a2c2ce3f42ef808f
-SHA1: ae4f55c40608eea55387efa16d232b1d587014c1
-SHA256: 2192a4ccd4b8c2e49de714808485019e63603465e4ae1df9642589311a2f95c0
-Section: System
-Description: checkra1n越狱专用！在不触发KPP、KTRR、PAC的情况下设置nonce
-Author: Victoys
-Name: dimentio
-
 Package: com.victoys.douyin
 Version: 1.7-1
 Architecture: iphoneos-arm
@@ -316,22 +302,6 @@ Description: 替换应用摄像头拍照的图片，让应用得到任意设置�
 Author: Victoys
 Name: 虚拟拍照
 
-Package: com.victoys.fix
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/imessage.deb
-Size: 4544
-MD5sum: b9cdc7932a751ffa8709f2c3cfa6901c
-SHA1: 3215a11a125ffa6373491423db82ef34bfb49f2a
-SHA256: 64e0091d26d4ccf8152dcdc51238c993df32850737040c79c0a68119a0e81ceb
-Section: Tweaks
-Description: 修复iOS 12.4之前版本开启iMessage后出现的致命bug，该bug会彻底破坏系统，只能刷机解决。
-Author: Victoys
-Name: iMessage Fix
-Sponsor: Victoys
-
 Package: com.victoys.flexlist
 Version: 1.2-5
 Architecture: iphoneos-arm
@@ -361,21 +331,6 @@ Section: Tweaks
 Description: 替代Flexible、适用iOS 12
 Author: Victoys
 Name: FlexTool
-
-Package: com.victoys.generator
-Version: 0.2.7
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 12.0), com.victoys.dimentio
-Filename: debs/generator.deb
-Size: 7990
-MD5sum: 09d93518076fb70b4f28ce0b07470cb4
-SHA1: 148b3075cbc77410184a36d6b07858431f8f3ed5
-SHA256: adb31d129cba3006ce167247cb46ad1b2ed0c7625a14b7d9da2d90734cb9a644
-Section: Tweaks
-Description: checkra1n越狱专用！自动设置Generator，默认0x1111111111111111
-Author: Victoys
-Name: Generator Auto Setter
 
 Package: com.victoys.gps
 Version: 1.9
@@ -506,6 +461,21 @@ Dev: Victoys
 Name: NetControl
 Sponsor: Victoys
 
+Package: com.victoys.nonceset
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/nonceset.deb
+Size: 42978
+MD5sum: f4db35b414543f6170049c0933d5a101
+SHA1: 646a48b5def4a6f0acd52d7ed79f333ead742903
+SHA256: b1e7ed7b030f53cb45b53322f4a4af2f10e432776f2c51a0e2c7257bbfcebe9d
+Section: Utilities
+Description: G值固定工具，仅支持checkra1n 0.11.0以上版本
+Author: Victoys
+Name: NonceSet
+
 Package: com.victoys.photos
 Version: 1.2-1
 Architecture: iphoneos-arm
@@ -567,37 +537,6 @@ Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
 Name: 淘宝优惠券
-
-Package: com.victoys.thunder
-Version: 1.4.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/thunder.deb
-Size: 31156
-MD5sum: 0aec97a96403c805e148dbe3713fa45e
-SHA1: e34af26e1a07e4d864b620e0e860ebccd5156711
-SHA256: f12fed831ad3c635535ec362f2c634ed8cce30907fe6909f1619e869c8944b0e
-Section: Tweaks
-Description: 手机迅雷非VIP用户开启高速通道
-Author: Victoys
-Name: 迅雷助手
-
-Package: com.victoys.tsssaver
-Version: 1.0-b4
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Pre-Depends: firmware (>=8.0)
-Depends: mobilesubstrate, net.limneos.libbulletin
-Filename: debs/tsssaver.deb
-Size: 287140
-MD5sum: 5e9808b54ef22c36b131ba386e8f73cc
-SHA1: 50b39ccb422feaf90d5fdce027fa466c66be1feb
-SHA256: 1843a5571b4b273f7f0ffd3bc9d516944e37058db79fdb64720e21caf66d3c22
-Section: Tweaks
-Description: 保存SHSH2、需要VPN，可添加多设备ECID
-Author: Victoys
-Name: TSS Saver
 
 Package: net.angelxwind.appsyncunified
 Version: 84.0
