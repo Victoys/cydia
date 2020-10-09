@@ -16,24 +16,6 @@ Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
-Package: com.cokepokes.appstoreplusplus
-Version: 0.9.12
-Architecture: iphoneos-arm
-Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: com.unlimapps.uaupdatetools
-Filename: debs/appstore++.deb
-Size: 617924
-MD5sum: 3802ee4e3a8e09c1cc6f0b7088e2efe2
-SHA1: dba76c9b9ddb927cfe4d3c7ae2c63c0672f7dc6a
-SHA256: 714cb241b9c278bf349fe8b4dbcb08fe32c7151dba4910e49cd3db23c01e40c9
-Section: Tweaks
-Priority: optional
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever
-Author: CokePokes
-Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
-Name: AppStore++
-
 Package: com.exile90.icleanerpro
 Version: 7.8.3
 Architecture: iphoneos-arm
@@ -156,6 +138,21 @@ Section: Tweaks
 Description: 支付宝屏蔽越狱检测，无需借用第三方插件
 Author: Victoys
 Name: 支付宝
+
+Package: com.victoys.appstore
+Version: 0.9.12
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 12.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Filename: debs/appstore++.deb
+Size: 349636
+MD5sum: 0c8c7a5ccb5655c173cbc55bbbd8cfb5
+SHA1: ba815b682a4173c75114fe7641300ed77e932e19
+SHA256: 64609827bddd7a2794ba0e6fbf366527f00e9b1f74da2d942fb0bbdb6fee6ff4
+Section: Tweaks
+Description: 抓包下载Appstore商店的软件旧版本
+Author: Victoys
+Name: AppStore++
 
 Package: com.victoys.aysx
 Version: 1.0
