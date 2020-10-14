@@ -270,15 +270,15 @@ Name: kDFU
 Sponsor: Victoys
 
 Package: com.victoys.douyin
-Version: 1.7-1
+Version: 1.7-2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/douyin.deb
-Size: 246386
-MD5sum: 255a296aedbb52485cff152e62647649
-SHA1: 7041f62f3bbb52a81b9724a54843922a96ae94c2
-SHA256: 35fb11e4f44f0179f1d7af513cec641a7e576d1bc8d1643b66b9712d3fb0890d
+Size: 243624
+MD5sum: 70c45676544527c4bf7fccfd70c166dc
+SHA1: 48c9d55a3049501478a35b26c350170a1ae84253
+SHA256: 83033f0c97ce1fba5d576e5899d63aaf20232bf2f2c46bc97ec8c3fb6f5ec5b8
 Section: Tweaks
 Description: 保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告，开启后台模糊特效。
 Author: Victoys
@@ -300,15 +300,15 @@ Author: Victoys
 Name: 虚拟拍照
 
 Package: com.victoys.flexlist
-Version: 1.2-5
+Version: 1.2-6
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
 Filename: debs/flexlist.deb
-Size: 1336348
-MD5sum: 5dc23cbb00e719f00c14025c1ec31bba
-SHA1: cdc6554645b7489147361866426c28749400c9d7
-SHA256: dde305b60b049f47a2b7c04084265492325cb1f85ce95615f401bc0e8b12ba6d
+Size: 1095684
+MD5sum: e104220fe9cf1fc6ddb1f498059029b7
+SHA1: e5c81577f7df6c3e93d698737330f5e54cfff013
+SHA256: dcb830a63bdad58b61026053196b175199dd22633df4196d0837a895b255d164
 Section: Tweaks
 Description: 替代Flexible、适用iOS 13
 Author: Victoys
