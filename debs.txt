@@ -3,3 +3,11 @@ dpkg-scanpackages debs /dev/null > Packages
 tar zcvf Packages.gz Packages
 
 bzip2 -k Packages Packages.bz2
+
+
+DEB打包解包
+dpkg-deb -x ./1.deb ./temp
+
+dpkg-deb -e ./1.deb ./temp/DEBIAN
+
+dpkg-deb -b ./temp 122.deb

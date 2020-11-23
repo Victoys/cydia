@@ -54,28 +54,6 @@ Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cy
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
 
-Package: com.matchstic.reprovision
-Version: 0.5.2~EOL
-Architecture: iphoneos-arm
-Maintainer: Matt Clarke <matt@incendo.ws>
-Depends: firmware (>= 9.0)
-Replaces: com.matchstic.Extender-Installer
-Provides: com.matchstic.Extender-Installer
-Filename: debs/reprovision.deb
-Size: 14406348
-MD5sum: 4064144eed72b264038cb91d9e477f1a
-SHA1: 1287ffa0f2919789fc86a96267e8cb3410715ff8
-SHA256: 11efa2b9c737860df3ebe08eeab429bfa664612c4b22b5e8aa237f20785b8e5d
-Section: System
-Priority: optional
-Homepage: https://github.com/Matchstic/Extender-Installer
-Description: Re-sign applications on your device
-Author: Matt Clarke <matt@incendo.ws>
-Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
-Dev: Matt Clarke <matt@incendo.ws>
-Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
-Name: ReProvision
-
 Package: com.victoys.Flex3
 Version: 1.0-B63
 Architecture: iphoneos-arm
@@ -107,65 +85,33 @@ Description: 开启归属地、来去电震动、T9拨号，归属地数据库�
 Author: Victoys
 Name: SuDial
 
-Package: com.victoys.afc2
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/afc2.deb
-Size: 9576
-MD5sum: 7d57effca31fb65f34540bfd1eb5b34f
-SHA1: 5c24a9be64998fb1fb2c4aab979bd069bf895c3d
-SHA256: c999e3ea30a1a25ac778c4f932f29e975a4369f67feaa0855bd8bed8ab8a7147
-Section: System
-Description: 允许64位设备进行完整系统文件访问
-Author: Victoys
-Dev: Victoys
-Name: AFC2 (iOS12专用)
-Sponsor: Victoys
-
-Package: com.victoys.alipay
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate
-Filename: debs/zfb.deb
-Size: 117064
-MD5sum: 14655a38c61fd2b15a37292ff90d98cf
-SHA1: ebeaf3fdaebeb4b50abfa403d996bec58a20af3d
-SHA256: 3e70e0540c8e4c82e66f9b7e831cb0b36cd7f0613150c6a204fe1b42cff82a3c
-Section: Tweaks
-Description: 支付宝屏蔽越狱检测，无需借用第三方插件
-Author: Victoys
-Name: 支付宝
-
 Package: com.victoys.appstore
 Version: 0.9.12
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 12.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Filename: debs/appstore++.deb
-Size: 349636
-MD5sum: 0c8c7a5ccb5655c173cbc55bbbd8cfb5
-SHA1: ba815b682a4173c75114fe7641300ed77e932e19
-SHA256: 64609827bddd7a2794ba0e6fbf366527f00e9b1f74da2d942fb0bbdb6fee6ff4
+Size: 349698
+MD5sum: 0ba5cd2029c4ddc750cd7c96550f9491
+SHA1: 934f455eb096867219bb32727dd6178c9aa7f569
+SHA256: e837867181646d78ab84d73ec50da6ebca8c90d8aa2f3011f10d3021b840b01c
 Section: Tweaks
-Description: 抓包下载Appstore商店的软件旧版本
+Description: 抓包下载Appstore商店的软件旧版本，不支持iOS 14
 Author: Victoys
 Name: AppStore++
 
 Package: com.victoys.aysx
-Version: 1.0
+Version: 0.1-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/aysx.deb
-Size: 46760
-MD5sum: 4e6ee9823142272b53b3dddcb98ab64c
-SHA1: 2658d83f9d9ef7f856fdf0165c127e3dac1c15a7
-SHA256: c7b868836346f79dc78f2eaed7a73cc706fa629a8011a14cf32c5a43ea1f7063
+Size: 48366
+MD5sum: 6f10ce2df2107ea1fddfd23f09a17f4a
+SHA1: 9d120c41284f996f51284d477b7aa84d38e160c9
+SHA256: 555675403b03667c997fd3c6880dc0e30aeff1d0f78fef6471d8f1a01752e2fa
 Section: Tweaks
-Description: 爱阅书香完美破解会员特权
+Description: 爱阅书香开启会员特权
 Author: Victoys
 Name: 爱阅书香
 
@@ -270,15 +216,15 @@ Name: kDFU
 Sponsor: Victoys
 
 Package: com.victoys.douyin
-Version: 1.7-2
+Version: 1.8-1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/douyin.deb
-Size: 243624
-MD5sum: 70c45676544527c4bf7fccfd70c166dc
-SHA1: 48c9d55a3049501478a35b26c350170a1ae84253
-SHA256: 83033f0c97ce1fba5d576e5899d63aaf20232bf2f2c46bc97ec8c3fb6f5ec5b8
+Size: 228846
+MD5sum: 1c98ba301b1a9ce712fa30048360beca
+SHA1: 1978e7f1fab010f73c3255f0480e947e46b898ad
+SHA256: da9ce9a54749dbf47f851bc6b436b9ec976a77a1f68e639d88a09ecd192488f7
 Section: Tweaks
 Description: 保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告，开启后台模糊特效。
 Author: Victoys
@@ -300,17 +246,17 @@ Author: Victoys
 Name: 虚拟拍照
 
 Package: com.victoys.flexlist
-Version: 1.2-6
+Version: 1.2-9
 Architecture: iphoneos-arm
 Maintainer: Victoys
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
 Filename: debs/flexlist.deb
-Size: 1095684
-MD5sum: e104220fe9cf1fc6ddb1f498059029b7
-SHA1: e5c81577f7df6c3e93d698737330f5e54cfff013
-SHA256: dcb830a63bdad58b61026053196b175199dd22633df4196d0837a895b255d164
+Size: 1104874
+MD5sum: 1a971d20603e1ee61d5a1dbbf59264ea
+SHA1: 9ac74010b5caf3bfd9c285c81284dd146ad81666
+SHA256: e1fa2e13276acceebfbe8ec16ece535bba6af62206cc6cc3d173e70a4b5c084d
 Section: Tweaks
-Description: 替代Flexible、适用iOS 13
+Description: 替代Flexible、适用iOS 13&14
 Author: Victoys
 Name: FlexList
 
@@ -426,21 +372,6 @@ Dev: Victoys
 Name: LocalIAPStore
 Sponsor: Victoys
 
-Package: com.victoys.manager
-Version: 1.6.0-2
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 13.0)
-Filename: debs/appsmanage.deb
-Size: 1462350
-MD5sum: d895e573a9e5f7eaaf0c1b69b2548e1a
-SHA1: a9c666d3505c0f9cac77fbaa347f82424b795e4e
-SHA256: 5df1be7606688085a638ab70bca7052d46a9013c2670720d15dbd6784ae224bb
-Section: Tweaks
-Description: 抹除、备份、还原应用数据神器，已破解。
-Author: Victoys
-Name: Apps Manager
-
 Package: com.victoys.netcontrol
 Version: 1.0.1-8
 Architecture: iphoneos-arm
@@ -458,21 +389,6 @@ Dev: Victoys
 Name: NetControl
 Sponsor: Victoys
 
-Package: com.victoys.nonceset
-Version: 1.2
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: debs/nonceset.deb
-Size: 42978
-MD5sum: f4db35b414543f6170049c0933d5a101
-SHA1: 646a48b5def4a6f0acd52d7ed79f333ead742903
-SHA256: b1e7ed7b030f53cb45b53322f4a4af2f10e432776f2c51a0e2c7257bbfcebe9d
-Section: Utilities
-Description: G值固定工具，仅支持checkra1n 0.11.0以上版本
-Author: Victoys
-Name: NonceSet
-
 Package: com.victoys.photos
 Version: 1.2-1
 Architecture: iphoneos-arm
@@ -487,6 +403,21 @@ Section: Tweaks
 Description: 相册添加彻底删除照片选项，支持iOS 13
 Author: Victoys
 Name: DeletePhotos
+
+Package: com.victoys.reprovision
+Version: 0.5.2
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 10.0)
+Filename: debs/reprovision.deb
+Size: 13740826
+MD5sum: 2efbaa87b9959a879a83efb157dacae1
+SHA1: 1294f6217ef65e1f5bd24b80b663373ac866679a
+SHA256: e52bee548d72cfa7fbd47dd16550677c3df6def2beac960ead90ccb188a9df1c
+Section: System
+Description: 自签名IPA应用
+Author: Victoys
+Name: ReProvision
 
 Package: com.victoys.stash
 Version: 1.0
