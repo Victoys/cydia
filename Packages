@@ -1,15 +1,15 @@
 Package: Flex3beta
-Version: 1:3~Beta97
+Version: 1:3~Beta98
 Architecture: iphoneos-arm
 Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Filename: debs/Flex3Beta.deb
-Size: 14371310
-MD5sum: 1f450b09787761c0a32b802652b4f897
-SHA1: f23e581e4e25b828ee69106bfb228798af4c6cce
-SHA256: 7a560b2c3387343d3e37027bb785263409bc60b6bf90b134704988b9fc519f9d
+Size: 14346600
+MD5sum: 693c569e78f37e6d0e9c2e63287bc97e
+SHA1: c6b44a4c7ef73f7b68240775ee58f7591c14d2e4
+SHA256: 2b71e64db3e4b352ef73d54e76e0808bb122c614d97160bf5338b903d2d8f6a4
 Section: Tweaks
 Description: Develop your own tweaks and share them on the Flex Community Cloud
 Author: John Coates
@@ -250,15 +250,15 @@ Name: kDFU
 Sponsor: Victoys
 
 Package: com.victoys.douyin
-Version: 1.8-1
+Version: 1.8-6
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/douyin.deb
-Size: 228846
-MD5sum: 1c98ba301b1a9ce712fa30048360beca
-SHA1: 1978e7f1fab010f73c3255f0480e947e46b898ad
-SHA256: da9ce9a54749dbf47f851bc6b436b9ec976a77a1f68e639d88a09ecd192488f7
+Size: 107052
+MD5sum: 05b653e580f6a53b80d795498a54b848
+SHA1: 180f88a4d636ec2987bb9183f9ab71e63c168193
+SHA256: 4fcbdd3111329a9a78a9949c6a5805e5faacb3a638cf04f0028ca7ea72bb868b
 Section: Tweaks
 Description: 保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告，开启后台模糊特效。
 Author: Victoys
@@ -422,6 +422,21 @@ Author: Victoys
 Dev: Victoys
 Name: NetControl
 Sponsor: Victoys
+
+Package: com.victoys.oldfakepicture
+Version: 1.5.5
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), applist
+Filename: debs/oldfakepicture.deb
+Size: 3369628
+MD5sum: 14cf888d0607c72eeb642799d3edd0ac
+SHA1: 291c300f4a754eaa2a632501f23d91969e6ca009
+SHA256: e705130602208a967314779883141a803a2227e45f35351b2ddf6ed62ce0cbbb
+Section: Tweaks
+Description: 替换应用摄像头拍照的图片，让应用得到任意设置的照片。
+Author: Victoys
+Name: 虚拟拍照（旧版）
 
 Package: com.victoys.photos
 Version: 1.2-1
