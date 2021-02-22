@@ -149,23 +149,6 @@ Description: 爱阅书香开启会员特权
 Author: Victoys
 Name: 爱阅书香
 
-Package: com.victoys.batterylife
-Version: 1.6.14
-Architecture: iphoneos-arm
-Maintainer: Victoys
-Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
-Filename: debs/batterylife.deb
-Size: 2101424
-MD5sum: 8094cb5d24fcabd728cdfa25c42502c6
-SHA1: 2e0ae593c08665e7228179f0f6988b5e2f73e78a
-SHA256: 8499a3826220b50876afb4f15261643445afb1f0365b3616b66c1e057608f124
-Section: Utilities
-Description: 显示电池详细信息参数、不支持iOS 11之后的系统
-Author: Victoys
-Dev: Victoys
-Name: BatteryLife
-Sponsor: Victoys
-
 Package: com.victoys.conditionalwifi2
 Version: 1.0
 Architecture: iphoneos-arm
@@ -250,15 +233,15 @@ Name: kDFU
 Sponsor: Victoys
 
 Package: com.victoys.douyin
-Version: 1.8-6
+Version: 1.9-5
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/douyin.deb
-Size: 107052
-MD5sum: 05b653e580f6a53b80d795498a54b848
-SHA1: 180f88a4d636ec2987bb9183f9ab71e63c168193
-SHA256: 4fcbdd3111329a9a78a9949c6a5805e5faacb3a638cf04f0028ca7ea72bb868b
+Size: 108844
+MD5sum: 3aa5672979db03b81be6a057f78240a2
+SHA1: 68e7c8d039ca5da9242e35b9cec470b6140e358a
+SHA256: 20ec592eebdda617b866651e84bb09b8051eea9f1a3811f7be3c1cfeba1a8722
 Section: Tweaks
 Description: 保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告，开启后台模糊特效。
 Author: Victoys
@@ -280,15 +263,15 @@ Author: Victoys
 Name: 虚拟拍照
 
 Package: com.victoys.flexlist
-Version: 1.2-9
+Version: 1.3-1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
 Filename: debs/flexlist.deb
-Size: 1104874
-MD5sum: 1a971d20603e1ee61d5a1dbbf59264ea
-SHA1: 9ac74010b5caf3bfd9c285c81284dd146ad81666
-SHA256: e1fa2e13276acceebfbe8ec16ece535bba6af62206cc6cc3d173e70a4b5c084d
+Size: 1113768
+MD5sum: 4db6cb44ea56e72289f35ca4ce282013
+SHA1: b9c09b26cde61795f612bb8f0052142a2e8fba0c
+SHA256: 6a0688c48684caacf8adad4acd0bf51f7be2d798759cb9ce5304664a9fff5e40
 Section: Tweaks
 Description: 替代Flexible、适用iOS 13&14
 Author: Victoys
