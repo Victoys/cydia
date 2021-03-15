@@ -16,25 +16,6 @@ Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
-Package: com.dave1482.powerapp
-Version: 6.0
-Architecture: iphoneos-arm
-Maintainer: Dave1482 <dave1482@dave1482.com>
-Pre-Depends: firmware (>= 8.0), system-cmds, shell-cmds, coreutils
-Conflicts: com.dave1482.powerappbeta
-Filename: debs/powerapp.deb
-Size: 411682
-MD5sum: 491e00e0988b57d6b54e50131001ed6e
-SHA1: 7a6567dbf322e7dc9b5569b41f96b5ffe6bb9269
-SHA256: 94ac9ae7b124a9c20252c3c19dcd31e2170855549164187b8088e1e428c3d427
-Section: Utilities
-Description: Reboot, Shutdown, Respring, go into Safemode
-Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15
-Author: Dave1482 <dave1482@dave1482.com>
-Depiction: https://powerapp.dave1482.com/
-Icon: file:///Applications/PowerApp.app/Icon-60.png
-Name: PowerApp
-
 Package: com.exile90.icleanerpro
 Version: 7.8.3
 Architecture: iphoneos-arm
@@ -77,14 +58,14 @@ Package: com.rileytestut.altdaemon
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Riley Testut
+Depends: mobilesubstrate
 Filename: debs/altdaemon.deb
-Size: 597622
-MD5sum: 83660c2d5119ac6ecce72236b27cfae4
-SHA1: 3c7ce20ff72c17f17a1415b14534a9be3fc41ca1
-SHA256: 1f5b35f4c402f6abab69e1833b260a4dfac156bbe1f9807b7aec4cd22665cc95
+Size: 598112
+MD5sum: 0352c37742084cb04f72262977cb0372
+SHA1: 69b7ce09722fd5a2459d27bcce1cff3d55ac02cc
+SHA256: 9a407f87a916a97e855cbf1dac34405b42e1ffed2ba64d30633ed0bff4fe4a4b
 Section: System
-Homepage: https://altstore.io
-Description: AltDaemon allows AltStore to install and refresh apps without a computer.
+Description: AltDaemon允许AltStore在没有PC的情况下安装和签名应用程序
 Author: Riley Testut
 Name: AltDaemon
 
@@ -263,17 +244,17 @@ Author: Victoys
 Name: 虚拟拍照
 
 Package: com.victoys.flexlist
-Version: 1.3-1
+Version: 1.3-2
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
 Filename: debs/flexlist.deb
-Size: 1113768
-MD5sum: 4db6cb44ea56e72289f35ca4ce282013
-SHA1: b9c09b26cde61795f612bb8f0052142a2e8fba0c
-SHA256: 6a0688c48684caacf8adad4acd0bf51f7be2d798759cb9ce5304664a9fff5e40
+Size: 1398004
+MD5sum: 0a4000b70a3a139bde2e40ac23b76fd7
+SHA1: 48e02f614b76d51111fdc1c763c1ec0ab143acf5
+SHA256: d398dd833f0b9a1cbfc8d869ac2c6e2ebe8a3b8911e09efb418a359ce65c69ef
 Section: Tweaks
-Description: 替代Flexible、适用iOS 13&14
+Description: 替代Flexible、兼容iOS 13&14
 Author: Victoys
 Name: FlexList
 
@@ -437,17 +418,17 @@ Author: Victoys
 Name: DeletePhotos
 
 Package: com.victoys.reprovision
-Version: 0.5.2
+Version: 0.5.2-1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 10.0)
 Filename: debs/reprovision.deb
-Size: 13740826
-MD5sum: 2efbaa87b9959a879a83efb157dacae1
-SHA1: 1294f6217ef65e1f5bd24b80b663373ac866679a
-SHA256: e52bee548d72cfa7fbd47dd16550677c3df6def2beac960ead90ccb188a9df1c
+Size: 13740888
+MD5sum: 05b783160386bfea5c99ce54ba36ce28
+SHA1: 7480268e1752d6b1dc6ebb3d696888515ce28f80
+SHA256: 3af5f959376dd80676d663e0ec0392f20bed2b15562baa32a1388e2984dcf01c
 Section: System
-Description: 自签名IPA应用
+Description: 自签名IPA应用，不支持iOS14，替换2021.01.28最新证书文件
 Author: Victoys
 Name: ReProvision
 
