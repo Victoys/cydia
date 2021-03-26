@@ -120,7 +120,7 @@ Version: 84.0
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 12.0), mobilesubstrate
-Filename: debs/appsync.deb
+Filename: debs/appsync84.deb
 Size: 26192
 MD5sum: 4938a8dcd38c841b1151105932a1f7c8
 SHA1: 2a7147e8fd85ec8c122a6f4c3792052816bec4e5
@@ -401,6 +401,21 @@ Author: Victoys
 Dev: Victoys
 Name: NetControl
 Sponsor: Victoys
+
+Package: com.victoys.networkmanage
+Version: 1.1-3
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader
+Filename: debs/NetworkManage.deb
+Size: 101600
+MD5sum: 16f7b5d75deb23e0fa4559e0f64d554a
+SHA1: 87c33c89bec31c40f460c0e9edf64b2bd73b266a
+SHA256: b624b11d8dfb8b33da920f9268b7d1bbc096df22feda51a37a1e807094858e7d
+Section: Tweaks
+Description: 设置国行设备应用联网权限
+Author: Victoys
+Name: NetworkManage
 
 Package: com.victoys.oldfakepicture
 Version: 1.5.5
