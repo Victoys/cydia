@@ -306,15 +306,15 @@ Name: Fake GPS Pro
 Sponsor: Victoys
 
 Package: com.victoys.jd
-Version: 0.2-3
+Version: 0.2-4
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/jd.deb
-Size: 106204
-MD5sum: 7ac65b4933810f4400a2ef1c95e1a64e
-SHA1: b21a62f0a1bc1ebeae19916ccbbf8043f7eb264d
-SHA256: 3d1f13d91ee6f096ed3e8ede1ba104b624bdcf1a39898c81c5f670598c1e9166
+Size: 105820
+MD5sum: 26a15e7f11beb57a14feb7ddd211bfff
+SHA1: aac354185b8f9ee08f75f4f8a06ac43e49989dc6
+SHA256: 3449e078a0142965eeb213b9582dd563eb787c373bf2ff4b127a44f567649413
 Section: Tweaks
 Description: 自动显示京东商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
@@ -510,15 +510,15 @@ Author: Victoys
 Name: System Info
 
 Package: com.victoys.tb
-Version: 2.1.2
+Version: 2.1.3
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: debs/tb.deb
-Size: 122868
-MD5sum: 1a265025427ebbd10858a43547be2910
-SHA1: 3c9da81a16e02b56005562052dcbe6e9dcae7d99
-SHA256: aebcfd6d6335144f942a15bd3112d6fc127416634500f3aa6b8807d47b18ff83
+Size: 127412
+MD5sum: e7a27f126841c5f6e9818762ff8c1d75
+SHA1: fff3adb674c5d7f2171c4c44ad1f804d6d3ef20c
+SHA256: 4f6e63e57325c02d4deb68205e71a1582f47d3eec4845b164410eb37905e98d2
 Section: Tweaks
 Description: 自动显示淘宝商品历史最低价、历史最高价、内部优惠券
 Author: Victoys
