@@ -100,6 +100,21 @@ Description: 开启归属地、来去电震动、T9拨号，归属地数据库�
 Author: Victoys
 Name: SuDial
 
+Package: com.victoys.afc2
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Victoys
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/afc2.deb
+Size: 13492
+MD5sum: 01c2d13eb814679bca28d45b2efa8d5e
+SHA1: 754cd09d905273d240cc5d4baa063a354ace8794
+SHA256: 186cd54c7b2dc0d6567eb960d5d8b97d5e6e381abbfe251de78707fa0725c0c7
+Section: System
+Description: 允许设备通过USB进行系统文件访问读写，支持iOS 13.0 - 13.7
+Author: Victoys
+Name: AFC2
+
 Package: com.victoys.appstore
 Version: 0.9.12
 Architecture: iphoneos-arm
