@@ -244,17 +244,17 @@ Name: kDFU
 Sponsor: Victoys
 
 Package: com.victoys.douyin
-Version: 1.9-5
+Version: 2.0-1
 Architecture: iphoneos-arm
 Maintainer: Victoys
 Depends: mobilesubstrate
 Filename: debs/douyin.deb
-Size: 108844
-MD5sum: 3aa5672979db03b81be6a057f78240a2
-SHA1: 68e7c8d039ca5da9242e35b9cec470b6140e358a
-SHA256: 20ec592eebdda617b866651e84bb09b8051eea9f1a3811f7be3c1cfeba1a8722
+Size: 113044
+MD5sum: 56d921646ccde475dcde83679a3253a2
+SHA1: a6d49df2fb7d8590492cd0dfaec66cc616c3911a
+SHA256: 8a410636dcd9e893d227acdf9f037eb5ca4dc2fb72525894b99e00e48a4cad82
 Section: Tweaks
-Description: 保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告，开启后台模糊特效。
+Description: 去全局广告、保存限制视频、保存视频无水印、自动播放等
 Author: Victoys
 Name: 抖音
 
